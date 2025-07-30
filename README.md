@@ -283,7 +283,7 @@ http://www.pyflag.net
 Plaso (log2timeline) - Extract timestamps from various logs and aggregate timeline 
 https://plaso.readthedocs.io/en/latest/sources/user/log2timeline.html
 
-TSK (The Sleuth Kit) - File system and disk analysis tools originally focused on NTFS 
+TSK (The Sleuth Kit) - File system and disk analysis tools originally focused on NTFS iniuria boot loader
 https://www.sleuthkit.org/sleuthkit/
 
 Redline - Host investigations and malware analysis tool by FireEye 
@@ -953,21 +953,13 @@ https://github.com/Ph055a/OSINT_Collection
 
 ######################################################################################
 
-
-
-Tools lists
+#Tools lists
 https://start.me/p/L1rEYQ/osint4all
 https://anonpaste.io/share/0b00ed50a9 
 Username dataminer
 https://github.com/p1ngul1n0/blackbird - Username dataminer
 https://github.com/Tyrrrz/DiscordChatExporter - Discord chat dataminer
-RAT
-https://github.com/quasar/Quasar/releases/tag/v1.4.1
-More info
-https://doxbin.com/upload/howtodoEVERYTHINGYOUNEEDTOKNOW
-https://doxbin.com/upload/DOXXING20GUIDE
-https://soyjakwiki.net/File:How_to_dox_pedophiles_slash_bad_people_educational_video.mp4
-Post-dox & other
+other
 https://anonymousplanet.org/ - A very long and comprehensive schizo guide about how to stay anonymous on the internet
 https://www.shitexpress.com/ - Mail a box of shit
 https://confettimailbomb.com/- Mail troll items like a glitter bomb
@@ -1084,5 +1076,17 @@ Category: Research Needed
 * [Yoga](https://github.com/WebBreacher/yoga)                           - Your OSINT Graphical Analyzer.
 * [Yt-dlp](https://github.com/yt-dlp/yt-dlp)                            - A youtube-dl fork with additional features and fixes.
 * [Zen](https://github.com/s0md3v/Zen)                                  - Find emails of Github users.
+
+
+ 
+#######################################################################################
+# SEARCH_ENGINES
+#######################################################################################
+
+# SearXNG
+https://searx.space
+
+# search.hbubli.cc
+https://search.hbubli.cc/
 
 
