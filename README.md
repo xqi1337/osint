@@ -951,6 +951,10 @@ https://github.com/jivoi/awesome-osint
 https://github.com/Ph055a/OSINT_Collection
 
 
+#Collection of 4000+ OSINT resources:
+https://metaosint.github.io/table
+
+
 ######################################################################################
 
 #Tools lists
@@ -964,13 +968,49 @@ https://anonymousplanet.org/ - A very long and comprehensive schizo guide about 
 https://www.shitexpress.com/ - Mail a box of shit
 https://confettimailbomb.com/- Mail troll items like a glitter bomb
 https://www.ruindays.com/ - Mail even more troll items like a dickhead trophy
-Category: Research Needed
-
+https://github.com/danieldurnea/FBI-tools- FBI tools
+https://www.whitepages.com/person - This website is also ppl search engine but u can get info about ppl through there name, address or phone number 
+https://tools.emailhippo.com/  -  If u have email of the target and u want to check whether its working or not u can check it in this website 
+https://webmii.com/ - A great website for gathering info about ppl with there name
+https://www.whitepages.com/person - This website is also ppl search engine but u can get info about ppl through there name, address or phone number 
+https://namecheckup.com/ - Username search engine, and shows the social media accounts with that usernames
+https://namechk.com/ - Category: Research Needed
+https://www.twitonomy.com/dashboard.php - Twitter Search Analytics tool
+https://socialbearing.com/ - Creating a Twitter Search & Analytics tool
+https://ostradecraft.medium.com/hashing-the-secret-life-of-data-cab1ac245280 - For OSINT practitioners, hashing can be an extremely valuable addition to their workflow, both as a verification tool and a documentation method.
+https://www.fastpeoplesearch.com/ - people search 
+https://rentry.co/gk3qbkog - Open Source Intelligence Gathering Resource
 
 ######################################################################################
 
 
-
+# Osint tools
+* [Rae Baker, OSINT List](https://start.me/p/7kYgk2/rae-baker-deep-dive-osint) 
+* [DeDigger](https://www.dedigger.com/)
+* [Awesome-OSINT-for-everything github repository](https://github.com/Astrosp/Awesome-OSINT-For-Everything)
+* [OSINT framework](https://osintframework.com/)
+* [OSINT list of tools rentry blog](https://rentry.co/gk3qbkog) 
+* [FBI OSINT tools github repository](https://github.com/danieldurnea/FBI-tools)  
+* https://dev.to/brightdevs/8-must-have-infrastructure-reconnaissance-tools-for-your-app-security-5fc3
+* [OSINT astrosp github repository](https://github.com/Astrosp/osint-tools)
+* https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_2020.pdf
+* [Phonebook.cz](https://phonebook.cz/)
+* [OSINT tools start.me](https://start.me/p/7kYgk2/rae-baker-deep-dive-osint) 
+* [Pimeyes](https://pimeyes.com) find faces online
+* [Facecheck](https://facecheck.id/) find faces online
+* [Lampyre](https://lampyre.io/) Data analysis & OSINT tool for everyone
+* [Collection of 4000+ OSINT resources](https://metaosint.github.io/table) 
+* [github tool to investigate people](https://reconshell.com/gitfive-osint-tool/) 
+* [Wireless network osint](https://digitalinvestigator.blogspot.com/2022/12/wireless-network-osint.html) 
+* [hashing ](https://ostradecraft.medium.com/hashing-the-secret-life-of-data-cab1ac245280) 
+* [twitter OSINT 1](https://socialbearing.com/)
+* [twitter OSINT 2](https://www.twitonomy.com/dashboard.php) 
+* [people search engine WEBMII](https://webmii.com/)  
+* [people search engine WHITEPAGES](https://www.whitepages.com/person) 
+* [people search engine NAMECHECKUP](https://namecheckup.com/) 
+* [people search engine NAMECHK](https://namechk.com/) 
+* [check email target](https://tools.emailhippo.com/) 
+* [gather company info](https://hunter.io/)
 * [Amass](https://github.com/owasp-amass/amass)                         - In-depth attack surface mapping and asset discovery.
 * [Atscan](https://github.com/AlisamTechnology/ATSCAN)                  - Advanced dork Search & Mass Exploit Scanner.
 * [Bdfr](https://github.com/aliparlakci/bulk-downloader-for-reddit)     - Downloads and archives content from reddit.
