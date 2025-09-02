@@ -980,12 +980,14 @@ https://www.twitonomy.com/dashboard.php - Twitter Search Analytics tool
 https://socialbearing.com/ - Creating a Twitter Search & Analytics tool
 https://ostradecraft.medium.com/hashing-the-secret-life-of-data-cab1ac245280 - For OSINT practitioners, hashing can be an extremely valuable addition to their workflow, both as a verification tool and a documentation method.
 https://www.fastpeoplesearch.com/ - people search 
+https://osint.rocks/ - OSINT ROCKS
 https://rentry.co/gk3qbkog - Open Source Intelligence Gathering Resource
 
 ######################################################################################
 
 
 # Osint tools
+* [flare](https://try.flare.io/jh/)
 * [Rae Baker, OSINT List](https://start.me/p/7kYgk2/rae-baker-deep-dive-osint) 
 * [DeDigger](https://www.dedigger.com/)
 * [Awesome-OSINT-for-everything github repository](https://github.com/Astrosp/Awesome-OSINT-For-Everything)
