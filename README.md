@@ -959,28 +959,49 @@ https://metaosint.github.io/table
 
 #Tools lists
 https://github.com/yogeshojha/rengine
+
 https://start.me/p/L1rEYQ/osint4all
-https://anonpaste.io/share/0b00ed50a9 
-Username dataminer
+
+https://anonpaste.io/share/0b00ed50a9 -  Username dataminer
+
 https://github.com/p1ngul1n0/blackbird - Username dataminer
+
 https://github.com/Tyrrrz/DiscordChatExporter - Discord chat dataminer
+
 other
+
 https://anonymousplanet.org/ - A very long and comprehensive schizo guide about how to stay anonymous on the internet
+
 https://www.shitexpress.com/ - Mail a box of shit
+
 https://confettimailbomb.com/- Mail troll items like a glitter bomb
+
 https://www.ruindays.com/ - Mail even more troll items like a dickhead trophy
+
 https://github.com/danieldurnea/FBI-tools- FBI tools
+
 https://www.whitepages.com/person - This website is also ppl search engine but u can get info about ppl through there name, address or phone number 
+
 https://tools.emailhippo.com/  -  If u have email of the target and u want to check whether its working or not u can check it in this website 
+
 https://webmii.com/ - A great website for gathering info about ppl with there name
+
 https://www.whitepages.com/person - This website is also ppl search engine but u can get info about ppl through there name, address or phone number 
+
 https://namecheckup.com/ - Username search engine, and shows the social media accounts with that usernames
+
 https://namechk.com/ - Category: Research Needed
+
 https://www.twitonomy.com/dashboard.php - Twitter Search Analytics tool
+
 https://socialbearing.com/ - Creating a Twitter Search & Analytics tool
+
 https://ostradecraft.medium.com/hashing-the-secret-life-of-data-cab1ac245280 - For OSINT practitioners, hashing can be an extremely valuable addition to their workflow, both as a verification tool and a documentation method.
+
 https://www.fastpeoplesearch.com/ - people search 
+
 https://osint.rocks/ - OSINT ROCKS
+
 https://rentry.co/gk3qbkog - Open Source Intelligence Gathering Resource
 
 ######################################################################################
