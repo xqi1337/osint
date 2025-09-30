@@ -675,7 +675,6 @@ http://goo.gl
 IP Logger
 http://iplogger.org
 
-![​ A typical OSINT professionals apartment, in case you were wondering.](https://2151249094-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MkyelMiBvwVhKSgo_Iy%2F-MlIbjNUhM3H0qvb2XZn%2F-MlIejC5jyn3tRQ4soJb%2FOSINT-WTF-Header.png?alt=media\&token=924bc17b-1150-43f4-ad95-ad58b76d9ec2)
 Tiny
 http://tiny.cc
 
