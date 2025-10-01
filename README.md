@@ -436,7 +436,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Tor2Web](https://tor2web.org)
 - [Not Evil (Inside Tor)](https://hss3uro2hsxfogfq.onion)
 
-#######################################################################################
+#################################################################check######################
 ### Vehicle Investigation
 #######################################################################################
 
@@ -608,6 +608,9 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [OSINT ROCKS](https://osint.rocks/)
 - [Rengine](https://github.com/yogeshojha/rengine)
 - [OSINT4ALL](https://start.me/p/L1rEYQ/osint4all)
+- [digital defense](https://digital-defense.io)
+- [Web Check](https://web-check.xyz)
+- [TZP](https://arkenfox.github.io/TZP/tzp.html)
 
 ---
 #######################################################################################
