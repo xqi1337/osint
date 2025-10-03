@@ -704,6 +704,79 @@ https://searx.space
 # search.hbubli.cc
 https://search.hbubli.cc/
 
+
+- [Fagan Finder](https://www.faganfinder.com/)
+- [Search All](https://www.searchall.net/), [WebSitesSearch](https://web-sites-search.web.app/), [CombinedSearch](https://combinedsearch.io/), [gnod Search](https://www.gnod.com/search/) or [AIO Search](https://www.aiosearch.com/) - Multi-Site Search
+- [100 Search Engines](https://www.100searchengines.com/) - Search with 100 Search Engines
+- [Jumps](https://jumps.io/) or [Yubnub](https://yubnub.org/) - Site Quick Search
+- [Trovu.net](https://trovu.net/) - Command Search /
+- [The Search Engine Map](https://www.searchenginemap.com/) - View Search Engine Connections
+- [Marginalia Search](https://marginalia-search.com/) - Text-Based Search Engine /
+- [TheOldNet](https://theoldnet.com/) or [OldVista](https://www.oldavista.com/) - Oldschool / Retro Site Search Engines
+- [OceanHero](https://oceanhero.today/) or [ekoru](https://ekoru.org/) - Ocean Protection Search Engines
+- [Ecosia](https://www.ecosia.org/) - Plant Trees via Search / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ecosia-the-green-search/) / [Chrome](https://chromewebstore.google.com/detail/ecosia-the-search-engine/eedlgdlajadkbbjoobobefphmfkcchfk)
+- [Mullvad Leta](https://leta.mullvad.net/)
+- [Presearch](https://presearch.com/) /
+- [Bing](https://www.bing.com/)
+- [Google](https://google.com/) / [AI Mode](https://google.com/aimode), [2](https://www.google.com/search?udm=50)
+- [Lycos](https://www.lycos.com/)
+- [WebCrawler](https://www.webcrawler.com/)
+- [Million Short](https://millionshort.com/)
+- [Andi](https://andisearch.com/)
+- [Vuhuv](https://vuhuv.com/)
+- [Carrot2](https://search.carrot2.org/#/web)
+- [Yahoo](https://www.yahoo.com/)
+- [Stract](https://stract.com/) /
+- [AOL](https://search.aol.com/)
+- [All the Internet](https://www.alltheinternet.com/)
+- [eTools.ch](https://www.etools.ch/)
+- [BizNar](https://biznar.com/biznar/desktop/en/search.html)
+- [WorldWideScience](https://worldwidescience.org/)
+- [Whoogle Search](https://github.com/benbusby/whoogle-search) or [ZincSearch](https://zincsearch-docs.zinc.dev/) / - Self-Hosted Search Engines
+- **[CSE Utopia](https://start.me/p/EL84Km/cse-utopia)**, [Awesome CSEs](https://github.com/davzoku/awesome-custom-search-engines) or [Boolean Strings](https://booleanstrings.com/all-the-40-forty-custom-search-engines/) - Custom Search Engine Indexes
+- [TV Streaming CSE](https://cse.google.com/cse?cx=006516753008110874046:hrhinud6efg) - Search TV Streaming Sites
+- [Streaming CSE](https://cse.google.com/cse?cx=006516753008110874046:cfdhwy9o57g##gsc.tab=0), [2](https://cse.google.com/cse?cx=006516753008110874046:o0mf6t-ugea##gsc.tab=0), [3](https://cse.google.com/cse?cx=98916addbaef8b4b6), [4](https://cse.google.com/cse?cx=0199ade0b25835f2e)
+- [Download CSE](https://cse.google.com/cse?cx=006516753008110874046:1ugcdt3vo7z), [2](https://cse.google.com/cse?cx=006516753008110874046:reodoskmj7h) - Search Download Sites
+- [Virgil Software Search](https://virgil.samidy.com/software-search/) / or [Software CSE](https://cse.google.com/cse?cx=ae17d0c72fa6cbcd4) - Search Software Sites
+- [Torrent CSE](https://cse.google.com/cse?cx=006516753008110874046:0led5tukccj), [2](https://cse.google.com/cse?cx=006516753008110874046:kh3piqxus6n) - Search General Torrent Sites
+- [Reading CSE](https://cse.google.com/cse?cx=006516753008110874046:s9ddesylrm8), [2](https://cse.google.com/cse?cx=006516753008110874046:rc855wetniu), [3](https://cse.google.com/cse?cx=e9657e69c76480cb8), [4](https://cse.google.com/cse?cx=c46414ccb6a943e39), [5](https://ravebooksearch.com/), [6](https://recherche-ebook.fr/en/) - Search Reading Sites
+- [Audiobooks CSE](https://cse.google.com/cse?cx=006516753008110874046:cwbbza56vhd) - Search Audiobook Sites
+- [Comics CSE](https://cse.google.com/cse?cx=006516753008110874046:p4hgytyrohg) - Search Comic Sites
+- [Manga CSE](https://cse.google.com/cse?cx=006516753008110874046:4im0fkhej3z), [2](https://cse.google.com/cse?cx=006516753008110874046:a5mavctjnsc#gsc.tab=0) - Search Manga Sites
+- [Android APK CSE](https://cse.google.com/cse?cx=e0d1769ccf74236e8), [2](https://cse.google.com/cse?cx=73948689c2c206528), [3](https://cse.google.com/cse?cx=a805854b6a196d6a6) - Search Android APK Sites
+- [Extensions CSE](https://cse.google.com/cse?cx=86d64a73544824102) - Search Extension Sites
+- [Fonts CSE](https://cse.google.com/cse?cx=82154ebab193e493d) - Search Font Sites
+- [Video Streaming CSE](https://cse.google.com/cse?cx=006516753008110874046:6v9mqdaai6q) - Search YouTube-Like Video Sites
+- [Video Download CSE](https://cse.google.com/cse?cx=006516753008110874046:wevn3lkn9rr), [2](https://cse.google.com/cse?cx=89f2dfcea452fc451), [3](https://cse.google.com/cse?cx=aab218d0aa53e3578) - Search Video Download Sites
+- [Video Torrent CSE](https://cse.google.com/cse?cx=006516753008110874046:gaoebxgop7j) - Search Video Torrent Sites
+- [Anime Streaming CSE](https://cse.google.com/cse?cx=006516753008110874046:vzcl7wcfhei) or [Kuroiru](https://kuroiru.co/) - Search Anime Streaming Sites
+- [Anime Download CSE](https://cse.google.com/cse?cx=006516753008110874046:osnah6w0yw8) - Search Anime Download Sites
+- [Anime Torrent CSE](https://cse.google.com/cse?cx=006516753008110874046:lamzt6ls4iz) - Search Anime Torrent Sites
+- [Audio Download CSE](https://cse.google.com/cse?cx=006516753008110874046:ibmyuhh72io), [2](https://cse.google.com/cse?cx=006516753008110874046:ohobg3wvr_w), [3](https://cse.google.com/cse?cx=32d85b41e2feacd3f) - Search Audio Download Sites
+- [Audio Torrent CSE](https://cse.google.com/cse?cx=006516753008110874046:v75cyb4ci55) - Search Audio Torrent Sites
+- [Virgil Game Search](https://virgil.samidy.com/Game-search/) / , [Rezi Search](https://rezi.one/), [⁠Playseek](https://playseek.app/), [Game Download CSE](https://cse.google.com/cse?cx=006516753008110874046:cbjowp5sdqg) or [r/PiratedGames CSE](https://cse.google.com/cse?cx=20c2a3e5f702049aa) - Multi-Site Search Engines
+- [Game Torrent CSE](https://cse.google.com/cse?cx=006516753008110874046:pobnsujblyx) - Search Game Torrent Sites
+- [PastebinSearch](https://cipher387.github.io/pastebinsearchengines/) or [Paste Skimmer](https://sites.google.com/view/l33tech/tools/pasteskimmer) - Search Pastebins
+- [File Host Search](https://cse.google.com/cse?cx=90a35b59cee2a42e1) - Search File Hosts
+- [Linux Software CSE](https://cse.google.com/cse?cx=81bd91729fe2a412b) - Search Linux Software Sites
+- [ROM CSE](https://cse.google.com/cse?cx=f47f68e49301a07ac), [2](https://cse.google.com/cse?cx=744926a50bd7eb010) - Search ROM Sites
+- [TikTok CSE](https://cse.google.com/cse?cx=c42f6b58703f83683) - TikTok Search
+- [Telegago](https://cse.google.com/cse?&cx=006368593537057042503:efxu7xprihg#gsc.tab=0) or [TG CSE](https://cse.google.com/cse?cx=006249643689853114236:a3iibfpwexa) - Telegram CSE
+- **[SearchTweaks](https://searchtweaks.com/)** - Google Search Tools
+- [Mastering Google Search Operators](https://moz.com/blog/mastering-google-search-operators-in-67-steps), [2](https://ahrefs.com/blog/google-advanced-search-operators/), [3](https://moz.com/learn/seo/search-operators), [4](https://seranking.com/ru/blog/operatory-poiska-google/) - Google Search Operator Resources
+- [Custom Sidebar](https://greasyfork.org/en/scripts/535629) - Highly Customizable ⁠Google Search Sidebar
+- [ISearchFrom](https://isearchfrom.com/) - Change Location / Device for Google Search
+- [goosh](https://goosh.org/) - Simple Google Web Client
+- [Google Trends](https://trends.google.com/trends/) - Google Search Trends
+- [⁠Google Images Tools Enhanced](https://greasyfork.org/en/scripts/537524) - Extra Google Image Search Filters
+- [View Image](https://github.com/bijij/ViewImage) - Adds Back "View Image" Button to Google Image Search
+- [Show Image Dimensions](https://greasyfork.org/scripts/401432) - Add Image Dimensions to Google
+- [Google DWIMages](https://greasyfork.org/en/scripts/29420) - Direct Links to Images & Pages on Google
+- [Endless Google](https://openuserjs.org/scripts/tumpio/Endless_Google) - Google Search Endless Scrolling
+- [Google Bangs](https://greasyfork.org/en/scripts/424160) - DDG!bangs in Google
+- [DisableAMP](https://github.com/AdguardTeam/DisableAMP) - Disable Google AMP Links
+
+
 https://www.vsthub.org/2024/01/win-image-line-fl-studio-producer.html
 
 https://steamrepacks.net/fl-studio-25-cracked/#🛠-easy-setup-guide
