@@ -1,1203 +1,626 @@
+
+
 # OSINT-Techniques
 
-###
-###
-### 
-#######################################################################################
-# GAP ANALYSIS METHODOLOGY
-#######################################################################################
+---
 
-Bei der Lückenanalyse wird eine Bestandsaufnahme der vorhandenen Ausgangsinformationen vorgenommen und dann anhand von vier einfachen Fragen ermittelt, was als nächstes zu tun ist. Auf diese Weise können Sie Struktur und Ordnung in Ihre OSINT-Forschung bringen. Die vier Fragen lauten:
+## GAP ANALYSIS METHODOLOGY
 
-1) Was weiß ich?
-2) Was bedeutet das?
-3) (Also) Was muss ich wissen?
-4) Wie kann ich es herausfinden?
+Gap analysis involves taking stock of the available initial information and then using four simple questions to determine what to do next. This allows you to bring structure and order to your OSINT research. The four questions are:
 
- 
+1. What do I know?
+2. What does that mean?
+3. (So) What do I need to know?
+4. How can I find out?
 
-#######################################################################################
-# Password Reset
-#######################################################################################
+---
 
-Mangelnde Standardisierung bei den Ansätzen für Funktionen zum Zurücksetzen von Passwörtern, die verwendet werden können, um die Telefonnummern und E-Mail-Adressen von Zielkonten zu erhalten.
+## Password Reset
 
-FACEBOOK: Es wird ein Bildschirm mit alternativen Kontaktmethoden angezeigt, die zum Zurücksetzen des Passworts verwendet werden können, wie im obigen Beitrag zu sehen. Es wird auch die Anzahl der Sternchen verwendet, die der Länge der E-Mail-Adressen entspricht.
+Lack of standardization in approaches to password reset functions that can be used to obtain the phone numbers and email addresses of target accounts.
 
-GOOGLE: Sie werden aufgefordert, das letzte Passwort einzugeben, das Sie sich gemerkt haben und das Sie beliebig ändern können. Auf dem nächsten Bildschirm wird eine geschwärzte Wiederherstellungs-Telefonnummer mit den letzten beiden Ziffern angezeigt, sofern eine solche in der Datei vorhanden ist.
+### FACEBOOK:
+A screen will appear showing alternative contact methods that can be used to reset the password, as shown in the post above. It will also show the number of asterisks corresponding to the length of the email addresses.
 
-TWITTER(X): Bei der Eingabe eines Twitter-Benutzernamens wird eine geschwärzte E-Mail-Adresse mit den ersten 2 Zeichen des E-Mail-Benutzernamens und dem ersten Buchstaben der E-Mail-Domäne gespeichert. Außerdem wird genau die Anzahl der Sternchen verwendet, die der Länge der E-Mail-Adresse entspricht.
+### GOOGLE:
+Sie werden aufgefordert, das letzte Passwort einzugeben, das Sie sich gemerkt haben und das Sie beliebig ändern können. Auf dem nächsten Bildschirm wird eine geschwärzte Wiederherstellungs-Telefonnummer mit den letzten beiden Ziffern angezeigt, sofern eine solche in der Datei vorhanden ist.
 
-YAHHOO:Zeigt eine geschwärzte alternative E-Mail-Adresse an, falls vorhanden. Zeigt die genaue Anzahl der Zeichen sowie das erste Zeichen und die letzten 2 Zeichen des E-Mail-Benutzernamens zusammen mit der vollständigen Domäne an.
+### TWITTER(X):
+You will be prompted to enter the last password you remember, which you can change if you wish. The next screen will display a blacked-out recovery phone number with the last two digits visible, if one is present in the file.
 
-MS: Anzeige einer zensierten Rufnummer mit den letzten 2 Ziffern
+### YAHOO:
+Displays a blacked-out alternate email address, if available. Displays the exact number of characters, as well as the first character and last 2 characters of the email username, along with the full domain.
 
-INSTAGRAM: Löst automatisch einen Reset aus und sendet dem Benutzer eine E-Mail. Nicht verwenden.
+### MS:
+Display of a censored phone number with the last 2 digits
 
-LINKEDIN: Löst automatisch einen Reset aus und sendet dem Benutzer eine E-Mail. Nicht verwenden.
+### INSTAGRAM:
+Automatically triggers a reset and sends an email to the user. **Warning:** Do not use.
 
-FOURSQUARE: Löst automatisch einen Reset aus und sendet dem Benutzer eine E-Mail. Nicht verwenden.
+### LINKEDIN:
+Automatically triggers a reset and sends an email to the user. **Warning:** Do not use.
 
- 
+### FOURSQUARE:
+Automatically triggers a reset and sends an email to the user. **Warning:** Do not use.
 
-#######################################################################################
-# Reverse Image Searching
-#######################################################################################
+---
 
-Yandex Images https://l
-https://images.yandex.com
+## Reverse Image Searching
 
-BING "Visual Search"
-https://bing.com/visualsearch
+The following search engines are suitable for reverse image searches:
 
-GOOGLE Images
-https://images.google.com
+- [Yandex Images](https://images.yandex.com)
+- [Bing Visual Search](https://bing.com/visualsearch)
+- [Google Images](https://images.google.com)
+- [TinEye](https://tineye.com)
 
-TinEye
-https://tineye.com
+---
 
- 
+## Recent Satellite Imagery
 
-#######################################################################################
-# Recent Satellite Imagery
-#######################################################################################
+- [Google Earth Explore New Satellite Imagery Tool](https://earth.google.com/web/@30.12736717,35.69560812,-1530.56420215a,14967606.11368418d,35y,0h,0t,0r/data=CjkaNxIxCiUweDE0MzY4OTc2YzM1YzM2ZTk6MHgyYzQ1YTAwOTI1YzRjNDQ0KgjDhGd5cHRlbhgCIAE)
+- [Mapbox Live](https://www.mapbox.com/)
 
-GOOGLE EARTH Explore New Satellite Imagery Tool
-https://earth.google.com/web/@30.12736717,35.69560812,-1530.56420215a,14967606.11368418d,35y,0h,0t,0r/data=CjkaNxIxCiUweDE0MzY4OTc2YzM1YzM2ZTk6MHgyYzQ1YTAwOTI1YzRjNDQ0KgjDhGd5cHRlbhgCIAE
+---
 
-MAPBOX LIVE
-https://www.mapbox.com/
+## Calculate photo approx time of day
 
- 
-
-#######################################################################################
-# Calculate photo approx time of day
-#######################################################################################
-
-https://suncalc.net
-https://suncalc.org
-
- 
-
-#######################################################################################
-# Fictional Account Creation
-#######################################################################################
-
-Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
-
-This Person Does Not Exist
-https://thispersondoesnotexist.com/
-
-This Resume Does Not Exist 
-https://thisresumedoesnotexist.com/
-
-This Rental Does Not Exist
-https://thisrentaldoesnotexist.com
-
-Fake Name Bio Generator
-https://www.fakenamegenerator.com/
-
-Random User Generator
-https://randomuser.me/
-
-Fake User Generator
-https://uinames.com
-
-Dating Profile Generator
-https://www.dating-profile-generator.org.uk/
-
-Fake Persona Generator
-https://businer.com/fakeid.php
-
-International Random Name Generator
-https://www.behindthename.com/random/
-
- 
-
-
-
-#######################################################################################
-# Antiviruses
-#######################################################################################
-
-http://fuckingscan.me/
-http://v2.scan.majyx.net/
-http://nodistribute.com/
-http://www.file2scan.net/
-http://anubis.iseclab.org/
-https://anonscanner.com/
-http://virusscan.jotti.org/it
-https://www.virustotal.com/nl/
- 
-
-
-
-#######################################################################################
-# FILE_SHARING
-#######################################################################################
-
- Download & Install https://onionshare.org
- Press Connect with TOR Button
- Drag & Drop all Files you want to upload in the field
- Wait some time
- You'll get an [.]onion url aswell as an private key[.]
- Provide User's with the link and the Provate key aswell as the download link for the tor browser[.]
-
-Note, after you shared the File, you can stop file sharing at any time within OnionShare Application This is useful if you for example want only 1 person to download it or if your link and private key got exposed to Users who shouldn't be able to download it
-
- 
-
-#######################################################################################
-# OSINT_Tools
-#######################################################################################
-
-#ANONSEARCH:
-DuckDuckGo
-https://duckduckgo.com/
-
-Start Page
-https://www.startpage.com/
-
-Qwant
-https://www.qwant.com/
-
-Yancy
-https://yacy.net/
-
-
-#BOT/TROLL:
-Bot Sentinel
-https://botsentinel.com/
-
-Botometer
-https://botometer.iuni.iu.edu/
-
-Emergent
-https://emergent.info
-
-Faker Fact
-https://www.fakerfact.org/about
-
-Hoaxy
-https://hoaxy.osome.iu.edu/
-
-Iffy Quotient
-https://csmr.umich.edu/plaform-health-metrics
-
-Information Operations Archive
-https://io-archive.org
-
-Twitter Trails
-http://twittertrails.com/
-
-Autopsy - Open source digital forensics platform to analyze hard drives and smart phones 
-https://www.autopsy.com
-
-EnCase - Commercial computer forensics software for e-discovery and investigations by OpenText 
-https://www.opentext.com/products-and-solutions/products/software/encase-platform
-
-AccessData (FTK) - Forensic toolkit computer investigation software by AccessData 
-https://accessdata.com/products-services/forensic-toolkit-ftk
-
-X-Ways Forensics - Integrated computer forensics software by X-Ways Software Technology 
-http://www.x-ways.net/forensics/
-
-Sleuth Kit - Open source digital forensics tools for analyzing disk images and file systems 
-https://www.sleuthkit.org
-
-Volatility - Memory forensics framework to analyze volatile memory dumps and artifacts 
-https://www.volatilityfoundation.org/
-
-Wireshark - Network protocol analyzer useful for network forensics and traffic analysis 
-https://www.wireshark.org
-
-Cellebrite UFED - Commercial mobile forensic software to extract data from phones and tablets 
-https://www.cellebrite.com/en/ufed-ultimate/
-
-Email Collector - Tool to collect and analyze email data during investigations 
-https://www.accessdata.com/products-services/e-discovery/email-examination/ftk-email-collector
-
-Forensics (DFF) - Digital forensics framework, an open source platform for investigations 
-https://github.com/arxsys/dff
-
-Magnet AXIOM - Commercial digital investigations platform from Magnet Forensics 
-https://www.magnetforensics.com/products/magnet-axiom/
-
-Oxygen Detective - Cloud extraction tool for investigations involving cloud services 
-https://www.oxygen-forensic.com/en/oxygen-detective
-
-OSForensics - Specialized forensics tools for Microsoft systems from PassMark 
-https://www.osforensics.com/
-
-NetworkMiner - Open source network forensic analyzer useful for investigating traffic 
-http://www.netresec.com/?page=NetworkMiner
-
-RegRipper - Tool to parse Windows registry files and dig for useful data 
-https://github.com/keydet89/RegRipper3.0
-
-Bulk Extractor - Scans disk images and extracts interesting bits of data 
-https://github.com/simsong/bulk_extractor
-
-Ghiro - Website screenshots and analysis for forensic investigations 
-http://www.getghiro.org/
-
-Scalpel - File carver which recovers files based on headers and footers 
-http://www.digitalforensicssolutions.com/Scalpel/
-
-HxD - Hex editor useful for analyzing raw disk and memory dumps 
-https://mh-nexus.de/en/hxd/
-
-TestDisk - Data recovery tool, useful when file systems get corrupted 
-https://www.cgsecurity.org/wiki/TestDisk
-
-PhotoRec - Recovery tool specifically focused on photos and media files 
-https://www.cgsecurity.org/wiki/PhotoRec
-
-CAINE - Italian GNU/Linux live distribution with many forensics tools 
-https://www.caine-live.net
-
-Axiom Cyber - Commercial digital forensics and incident response platform 
-https://axiomcyber.com/axiom-cyber/
-
-Belkasoft Evidence - Commercial all-in-one forensics solution for Windows, mobile, etc. 
-https://belkasoft.com/evidence
-
-Fibratus - Tool to explore and trace Windows kernel activity and data 
-https://www.jpcert.or.jp/english/pub/sr/ir_research.html
-
-Autopsy Browser - GUI interface for Autopsy digital forensics platform 
-https://www.autopsy.com/browser/
-
-Kali Linux - Penetration testing Linux distribution with many useful security tools 
-https://www.kali.org
-
-DEFT - Linux distribution configured specifically for computer forensics 
-http://www.deftlinux.net
-
-Volatility Framework - Advanced memory forensics framework with plugins and APIs 
-https://www.volatilityfoundation.org/
-
-PyFlag - Legacy Australian forensic and log analysis GUI platform 
-http://www.pyflag.net
-
-Plaso (log2timeline) - Extract timestamps from various logs and aggregate timeline 
-https://plaso.readthedocs.io/en/latest/sources/user/log2timeline.html
-
-TSK (The Sleuth Kit) - File system and disk analysis tools originally focused on NTFS iniuria boot loader
-https://www.sleuthkit.org/sleuthkit/
-
-Redline - Host investigations and malware analysis tool by FireEye 
-https://www.fireeye.com/services/freeware/redline.html
-
-Snort - Open source intrusion detection and network monitoring system 
-https://www.snort.org
-
-Tcpdump - Capture and analyze network traffic on Unix-like systems 
-https://www.tcpdump.org
-
-Ngrep - Search within network traffic payloads like grep for text streams 
-http://ngrep.sourceforge.net/
-
-dcfldd - Disk cloning and forensics tool, version of dd with hashing 
-https://dcfldd.sourceforge.net/
-
-SIFT (SANS) - Ubuntu-based distribution for forensic analysis 
-https://digital-forensics.sans.org/community/downloads
-
-Paladin - USB image mounted as virtual drive with write-protection 
-https://sumuri.com/software/paladin/
-
-CAINE Live - Self-contained bootable forensic environment 
-https://www.caine-live.net/page5/page5.html
-
-XRY (XAMN) - Commercial mobile forensic software to analyze phones 
-https://msab.com/xry/
-
-BlackLight - Powerful Windows-based forensics analysis platform 
-https://www.blackbagtech.com/blacklight.html
-
-WinHex - Hex editor, particularly helpful for low-level analyzing raw data 
-https://www.x-ways.net/winhex/
-
-Access FTK Imager - Disk and volume imaging software from AccessData 
-https://accessdata.com/product-download
-
-DC3DD - Improved version of dd for forensics, handles errors better 
-https://github.com/Defense-Cyber-Center/DC3-DD
-
-Raptor - Validation tool to verify the integrity of forensic copies 
-http://forensic.rampar.net/
-
-EnCase Imager - Disk imaging tool from Guidance Software 
-https://www.guidancesoftware.com/encase-imager
-
-Guymager - Open source disk cloning and imaging tool for Linux 
-https://guymager.sourceforge.io
-
-Extundelete - Used to recover deleted files from mountable images 
-http://extundelete.sourceforge.net/
-
-Xplico - Network forensics tool that rebuilds sessions from traffic 
-http://www.xplico.org/
-
-Foremost - File carving utility to recover files using header/footer definitions 
-http://foremost.sourceforge.net
-
-Live View - Volatile memory analysis tool for Windows systems 
-http://liveview.sourceforge.net/
-
-Yara - Pattern matching tool aimed at malware researchers
-
-Checkm8 - Jailbreaking tool extracting data from passcode locked iOS devices 
-https://checkm8.info/
-
-Olefile - Python package for parsing OLE and Office documents 
-https://github.com/decalage2/olefile
-
-Pyew - Python tool for malware analysis, static and dynamic 
-https://github.com/joxeankoret/pyew
-
-USBDeview - Handy Windows tool listing all USB devices ever connected 
-https://www.nirsoft.net/utils/usb_devices_view.html
-
-DC3-MWCP - Collection of tools for forensic enterprise analysis from DC3 
-https://www.dc3.mil/software-catalog/
-
-Memoryze - Memory acquisition and analysis tool for Windows systems 
-https://www.fireeye.com/services/freeware/memoryze.html
-
-EVTExtract - Automated parsing modules for Windows event log records 
-https://evtxtract.readthedocs.io/en/latest/
-
-Nmap - Network scanning and host discovery tool helpful for reconnaissance 
-https://nmap.org/
-
-OSINT Framework - Gathering publicly available online data regarding targets 
-https://osintframework.com/
-
-Recon-ng - Web-based open source reconnaissance framework 
-https://github.com/lanmaster53/recon-ng
-
-SpiderFoot - OSINT automation tool gathering threat intelligence data 
-https://www.spiderfoot.net/
-
-Metagoofil - Extract metadata of public documents from a target website 
-https://github.com/laramies/metagoofil
-
-TheHarvester - Gather emails, names, URLs from different public sources 
-https://github.com/laramies/theHarvester
-
-Creepy - Geolocation OSINT tool to extract target location information from social media profiles 
-https://www.geocreepy.com/
-
-
-#DOMAIN:
-Analyze ID
-https://analyzeid.com
-
-DNS Trails 
-https://dnstrails.com
-
-Domain Big Data 
-https://domainbigdata.com
-
-DomainIQ
-https://domainiq.com/snapshot/history
-
-DNS Trails
-https://dnstrails.com
-
-Spyse
-https://spyse.com
-
-ViewDNS Whois
-https://viewdns.info
-
-Whoismind
-https://whoismind.com
-
-Whoisology
-https://whoisology.com
-
-Whoxy
-https://whoxy.com/reverse-whois
-
-
-#EMAIL:
-Holehe
-https://github.com/megadose/holehe
-
-GitHub Email Scaper
-https://github.com/andyjsmith/GitHub-Email-Scraper
-
-Mosint
-https://github.com/alpkeskin/mosint
-
-Cynic
-https://ashley.cynic.al
-
-Dehashed
-https://dehashed.com
-
-Email Format
-https://email-format.com
-
-Email Hippo
-https://tools.verifyemailadress.io
-
-Ghost Project
-https://ghostproject.fr
-
-HaveIBeenPwned
-https://haveibeenpwned.com
-
-Hunter
-https://hunter.io
-
-IntelligenceX
-https://intelx.io
-
-Leak Phone
-https://leakprobe.net
-
-Leaked Source
-https://leakedsource.ru
-
-Many Contacts
-https://mancontacts.com/en/mail-check
-
-PasteBinDump
-https://psbdmp.ws
-
-Public Mail Records
-https://publicmailrecords.com
-
-Simple Email Reputation
-https://emailrep.io
-
-Spycloud
-https://spycloud.com
-
-Spytox
-https://spytox.com
-
-TruMail
-https://trumail.io
-
-Verify Email
-https://verify-email.org
-
-
-#FORENSICS:
-ExifData
-https://exifdata.com
-
-Extract Metadata
-https://extractmetadata.com
-
-Foto Forensics
-https://fotoforensics.com
-
-Forensically
-https://291.ch/photo-forensics
-
-MetaPicz
-https://metapicz.com
-
-Image Verification
-https://reveal-mklab.iti.gr/reveal/index.html
-
-WayBack Machine
-https://archive.org
-
-
-#INFRASTRUCTURE:
-Analyze ID
-https://analyzeid.com
-
-Backlink Checker
-https://smallseotools.com/backlink-checker
-
-Built With
-https://builtwith.com
-
-Carbon Dating
-https://carbondate.cs.odu.edu
-
-Censys
-https://censys.io
-
-Certificate Transparency Logs
-https://crt.sh
-
-DNS Dumpster
-https://dnsdumpster.com
-
-Builtwith
-https://builtwith.com/
-
-Pagodo
-https://github.com/opsdisk/pagodo
-
-DomainIQ
-https://domainiq.com/revers_analytics
-
-FOFA
-https://fofa.sofern
-
-Find Sub Domains
-https://findsubdomains.com
-
-Follow That Page
-https://followthatpage.ccom
-
-IntelX Google ID
-https://intelx.io/tools?tab=analytics
-
-MX Toolbox
-https://mxtoolbox.com
-
-Nerdy Data
-https://search.nerdydata.com
-
-Pentest Tools
-https://pentest-tools.com/reconnaissance/find-subdomains-of-domain
-
-PubDB
-https://pub-db.com
-
-PublicWWW Source Code
-https://publicwww.com
-
-Records Finder
-https://recordsfinder.com/email
-
-Shared Count
-https://sharedcount.com
-
-Shodan
-https://shodan.io
-
-Similar Web
-https://similarweb.com
-
-Spy On Web
-https://spyonweb.com
-
-Spyse
-https://spyse.com
-
-Thingful (IoT)
-https://thingful.net
-
-Threat Crowd
-https://threatcrowd.org
-
-Threat Intelligence Platform
-https://threatintelligenceplatform.com
-
-URLscan
-https://urlscan.io
-
-Virus Total
-https://virustotal.com
-
-Visual Ping
-http://
-
-Visual Site Mapper
-http://visualsitemapper.com
-
-Wigle
-http://wigle.net
-
-Zoom Eye
-http://zoomeye.org
-
-
-#IP ADDRESS:
-Censys
-http://censys.io/ipv4
-
-Exonerator
-http://exonerator.torproject.org
-
-IPLocation
-http://iplocation.net
-
-Shodan
-http://shodan.io
-
-Spyse
-http://spyse.com
-
-Threat Crowd
-http://threatcrowd.org
-
-Threat Intelligence Platform
-http://threatintelligenceplatform.com
-
-ViewDNS
-http://viewdns.info/reverseip
-
-ViewDNS
-http://viewdns.info/portscan
-
-ViewDNS
-http://viewdns.info/whois
-
-ViewDNS
-http://viewdns.info/iplocation
-
-Virus Total
-http://virustotal.com
-
-
-#IP LOG/SHORTNER:
-Bit.do 
-http://bit.do
-
-Bitly
-http://bitly.com
-
-Canary Tokens
-http://canarytokens.org
-
-Check Short URL 
-http://checkshorturl.com
-
-Get Notify
-http://getnotify.com
-
-Google URL Shortner
-http://goo.gl
-
-IP Logger
-http://iplogger.org
-
-Tiny
-http://tiny.cc
-
-URL Biggy
-http://urlbiggy.com
-
-#LIVE CAMERAS:
-Airport Webcams
-http://airportwebcams.net
-
-EarthCam
-http://earthcam.com
-
-Opentopia
-http://opentopia.com/hiddencam.php
-
-Open Webcam Network
-http://the-webcam-network.com
-
-Webcam Galore
-http://webcamgalore.com
-
-WorldCam
-http://worldcam.eu
-
-
-#METADATA:
-Exif Info
-http://exifinfo.org
-
-Extract Metadata
-http://extractmetadata.com
-
-Forensically
-http://29a.ch/photo-forensics
-
-Get Metadata
-http://get-metadata.com
-
-Jeffrey's Exif Viewer
-http://exif.regex.info/exif.cgi
-
-Online Barcode Reader
-http://online-barcode-reader/inliteresearch.com
-
-
-#IMAGES
-Imgops
-https://imgops.com/
-
-Depix
-https://github.com/spipm/Depixelization_poc
-
-
-#OPEN DIRECTORY SEARCH:
-Filer
-http://rsch.neocities.org/gen2filer.html
-
-File Chef
-http://filechef.com
-
-File Pursuit
-http://filepursuit.com
-
-Mamont
-http://mmnt.net
-
-Open Directory Search Tool
-http://opendirsearch.abifog.com
-
-Open Directory Search Portal
-http://eyeofjustice.com/od/
-
-Musgle
-http://musgle.com
-
-Lendex
-http://lendex.org
-
-
-#SATELLITE:
-Bing Maps
-http://bing.com/maps
-
-Descartes Labs
-http://map.descarteslabs.com
-
-Dual Maps
-http://data.mashedworld.com/dualmaps/map.htm
-
-Google Maps
-http://maps.google.com
-
-Wikimapia
-http://wikimapia.com
-
-World Imagery WayBack
-http://livingatlas.arcgis.com/wayback
-
-Yandex Maps
-http://yandex.com/maps
-
-Zoom Eath
-http://zoomeath.com
-
-
-#TELEPHONE:
-Carrier Lookup
-http://carrierlookup.com
-
-Dehashed
-http://dehashed.com
-
-Everyone API
-http://everyoneapi.com
-
-Free Carriers Lookup 
-http://freecarrierlookup.com
-
-Nuwber
-http://nuwber.com
-
-Old Phone Book
-http://oldphonebook.com
-
-Open CNAM
-http://opencnam.com
-
-People Search Now
-http://peoplesearchnow.com
-
-Sly Dial
-http://slydail.com
-
-Spy Dialer
-https://spydialer.com
-
-Spytox
-https://spytox.com
-
-That's Them
-https://thatsthem.com
-
-True Caller
-https://truecaller.com
-
-Twilio
-https://twilio.com/lookup
-
-
-#TOR:
-Ahmia
-https://ahmia.fi
-
-Dark Search
-https://darksearch.io
-
-Tor2Web
-https://tor2web.org
-
-Not Evil (Inside Tor)
-https://hss3uro2hsxfogfq.onion
-
-
-#VEHICLE:
-Nomerogram - RU Plates
-https://nomerogram.ru
-
-Vin-Info
-https://vin-info.com
-
-World License Plates 
-https://worldlicenseplates.com
-
-
-#GITHUB:
-Shhgit
-https://github.com/eth0izzle/shhgit
-
-
-#USERNAME:
-Sherlock
-https://github.com/sherlock-project/sherlock
-
-Nexfli
-https://github.com/thewhiteh4t/nexfil
-
-Know Em 
-https://knowem.com
-
-Name Checkr
-https://namecheckr.com
-
-Name Vine
-https://namevine.com
-
-User Search
-https://usersearch.org
-
-Discord Info:
-https://discord.id/
-
-socid_extractor
-https://github.com/soxoj/socid-extractor
-
-Webmii
-https://webmii.com/
-
-PimEyes
-https://pimeyes.com/en
-
-Agcom
-https://www.agcom.it/node/42043
-
-Facecheck
-https://facecheck.id/de
-
-Google GHunt
-https://github.com/mxrch/GHunt
-
-
-
- 
-#######################################################################################
-# OSINT_Resources
-#######################################################################################
-
-#OSINT Framework
-https://osintframework.com/
-
- 
-
-#BELLINGCAT's ONLINE INVESTIGATION TOOLKIT
-https://t.co/5vewV5ab5N
-
- 
-
-#Aware Online OSINT Tools
-https://www.aware-online.com/en/osint-tools/
-
- 
-
-#OSINT Techniques Tools
-https://www.osinttechniques.com/osint-tools.html
-
- 
-
-#OSINTCurious 10 Minute Tips
-https://osintcurio.us/10-minute-tips/
-
- 
-
-#Investigative Dashboard
-https://investigativedashboard.org
-
- 
-
-#Week in OSINT (Sector035)
-https://medium.com/@sector035
-
- 
-
-#I-Intelligence OSINT Resources Handbook
-https://www.i-intelligence.eu/wp-content/uploads/2018/06/OSINT_Handbook_June-2018_Final.pdf
-
- 
-
-#AWSOME OSINT Github
-https://github.com/jivoi/awesome-osint
-
- 
-
-#Ph055a's OSINT Collection
-https://github.com/Ph055a/OSINT_Collection
-
-
-#Collection of 4000+ OSINT resources:
-https://metaosint.github.io/table
-
-
-######################################################################################
-
-#Tools lists
-https://github.com/yogeshojha/rengine
-
-https://start.me/p/L1rEYQ/osint4all
-
-https://anonpaste.io/share/0b00ed50a9 -  Username dataminer
-
-https://github.com/p1ngul1n0/blackbird - Username dataminer
-
-https://github.com/Tyrrrz/DiscordChatExporter - Discord chat dataminer
-
-other
-
-https://anonymousplanet.org/ - A very long and comprehensive schizo guide about how to stay anonymous on the internet
-
-https://www.shitexpress.com/ - Mail a box of shit
-
-https://confettimailbomb.com/- Mail troll items like a glitter bomb
-
-https://www.ruindays.com/ - Mail even more troll items like a dickhead trophy
-
-https://github.com/danieldurnea/FBI-tools- FBI tools
-
-https://www.whitepages.com/person - This website is also ppl search engine but u can get info about ppl through there name, address or phone number 
-
-https://tools.emailhippo.com/  -  If u have email of the target and u want to check whether its working or not u can check it in this website 
-
-https://webmii.com/ - A great website for gathering info about ppl with there name
-
-https://www.whitepages.com/person - This website is also ppl search engine but u can get info about ppl through there name, address or phone number 
-
-https://namecheckup.com/ - Username search engine, and shows the social media accounts with that usernames
-
-https://namechk.com/ - Category: Research Needed
-
-https://www.twitonomy.com/dashboard.php - Twitter Search Analytics tool
-
-https://socialbearing.com/ - Creating a Twitter Search & Analytics tool
-
-https://ostradecraft.medium.com/hashing-the-secret-life-of-data-cab1ac245280 - For OSINT practitioners, hashing can be an extremely valuable addition to their workflow, both as a verification tool and a documentation method.
-
-https://www.fastpeoplesearch.com/ - people search 
-
-https://osint.rocks/ - OSINT ROCKS
-
-https://rentry.co/gk3qbkog - Open Source Intelligence Gathering Resource
-
-######################################################################################
-
-
-# Osint tools
-* [leakpeek](https://leakpeek.com/)
-* [flare](https://try.flare.io/jh/)
-* [Rae Baker, OSINT List](https://start.me/p/7kYgk2/rae-baker-deep-dive-osint) 
-* [DeDigger](https://www.dedigger.com/)
-* [Awesome-OSINT-for-everything github repository](https://github.com/Astrosp/Awesome-OSINT-For-Everything)
-* [OSINT framework](https://osintframework.com/)
-* [OSINT list of tools rentry blog](https://rentry.co/gk3qbkog) 
-* [FBI OSINT tools github repository](https://github.com/danieldurnea/FBI-tools)  
-* https://dev.to/brightdevs/8-must-have-infrastructure-reconnaissance-tools-for-your-app-security-5fc3
-* [OSINT astrosp github repository](https://github.com/Astrosp/osint-tools)
-* https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_2020.pdf
-* [Phonebook.cz](https://phonebook.cz/)
-* [OSINT tools start.me](https://start.me/p/7kYgk2/rae-baker-deep-dive-osint) 
-* [Pimeyes](https://pimeyes.com) find faces online
-* [Facecheck](https://facecheck.id/) find faces online
-* [Lampyre](https://lampyre.io/) Data analysis & OSINT tool for everyone
-* [Collection of 4000+ OSINT resources](https://metaosint.github.io/table) 
-* [github tool to investigate people](https://reconshell.com/gitfive-osint-tool/) 
-* [Wireless network osint](https://digitalinvestigator.blogspot.com/2022/12/wireless-network-osint.html) 
-* [hashing ](https://ostradecraft.medium.com/hashing-the-secret-life-of-data-cab1ac245280) 
-* [twitter OSINT 1](https://socialbearing.com/)
-* [twitter OSINT 2](https://www.twitonomy.com/dashboard.php) 
-* [people search engine WEBMII](https://webmii.com/)  
-* [people search engine WHITEPAGES](https://www.whitepages.com/person) 
-* [people search engine NAMECHECKUP](https://namecheckup.com/) 
-* [people search engine NAMECHK](https://namechk.com/) 
-* [check email target](https://tools.emailhippo.com/) 
-* [gather company info](https://hunter.io/)
-* [Amass](https://github.com/owasp-amass/amass)                         - In-depth attack surface mapping and asset discovery.
-* [Atscan](https://github.com/AlisamTechnology/ATSCAN)                  - Advanced dork Search & Mass Exploit Scanner.
-* [Bdfr](https://github.com/aliparlakci/bulk-downloader-for-reddit)     - Downloads and archives content from reddit.
-* [Blackbird](https://github.com/p1ngul1n0/blackbird)                   - An OSINT tool to search for accounts by username in social networks.
-* [Binwalk](https://github.com/ReFirmLabs/binwalk)                      - Firmware Analysis Tool.  
-* [Carbon14](https://github.com/Lazza/Carbon14)                         - OSINT dating tool for web pages.
-* [Cardpwn](https://github.com/itsmehacker/CardPwn)                     - OSINT Tool to find Breached Credit Cards Information.
-* [Chatgpt-shell-cli](https://github.com/0xacx/chatGPT-shell-cli)       - Simple shell script to use OpenAI's ChatGPT and DALL-E from the terminal. No Python or JS required.
-* [Cloud_enum](https://github.com/initstring/cloud_enum)                - Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
-* [Cloud_sherlock](https://github.com/Group-IB/cloud_sherlock)          - Enum S3 buckets and SaaS.
-* [Crosslinked](https://github.com/m8sec/CrossLinked)                   - LinkedIn enumeration tool to extract valid employee names from an organization through search engine scraping.
-* [DumpsterDiver](https://github.com/securing/DumpsterDiver)            - Tool to search secrets in various filetypes.
-* [Elasticsearch](https://github.com/elastic/elasticsearch)             - Free and Open, Distributed, RESTful Search Engine.
-* [Email2phonenumber](https://github.com/martinvigo/email2phonenumber)  - A OSINT tool to obtain a target's phone number just by having his email address.
-* [Emdofi](https://github.com/novitae/emdofi)                           - Uncovers a censored email's domain.
-* [ExchangeFinder](https://github.com/mhaskar/ExchangeFinder)           - Find Microsoft Exchange instance for a given domain and identify the exact version.
-* [Exiflooter](https://github.com/aydinnyunus/exifLooter)               - ExifLooter finds geolocation on all image urls and directories also integrates with OpenStreetMap.
-* [Exiv2](https://github.com/Exiv2/exiv2)                               - Image metadata library and tools.
-* [FacebookOsint](https://github.com/tomoneill19/FacebookOSINT)         - FBOSINT - A tool to replace facebook graph search Resources.
-* [Fake-sms](https://github.com/Narasimha1997/fake-sms)                 - A tool to skip phone number based SMS verification by using a temporary phone number that acts like a proxy. 
-* [Fbi](https://github.com/xHak9x/fbi)                                  - Facebook Information.
-* [Ffmpeg](https://archlinux.org/packages/extra/x86_64/ffmpeg/)         - Complete solution to record, convert and stream audio and video.
-* [Fierce](https://github.com/mschwager/fierce)                         - A DNS reconnaissance tool for locating non-contiguous IP space. 
-* [FinalRecon](https://github.com/thewhiteh4t/FinalRecon)               - The Last Web Recon Tool You'll Need.
-* [Foremost](https://github.com/korczis/foremost)                       - Foremost is a console program to recover files based on their headers, footers, and internal data structures.
-* [Gallery-dl](https://github.com/mikf/gallery-dl)                      - Command-line program to download image galleries and collections from several image hosting sites.
-* [GhostTrack](https://github.com/HunxByts/GhostTrack)                  - Useful tool to track location or mobile number.
-* [Ghunt](https://github.com/mxrch/GHunt)                               - Offensive Google framework.
-* [Gitfive](https://github.com/mxrch/GitFive)                           - Track down GitHub users.
-* [Githound](https://github.com/tillson/git-hound)                      - Reconnaissance tool for GitHub code search.
-* [Gitleaks](https://github.com/gitleaks/gitleaks)                      - Protect and discover secrets using Gitleaks.
-* [Gobuster](https://github.com/OJ/gobuster)                            - Directory/File, DNS and VHost busting tool written in Go.
-* [GooFuzz](https://github.com/m3n0sd0n4ld/GooFuzz)                     - GooFuzz is a tool to perform fuzzing with an OSINT approach, managing to enumerate directories, files, subdomains or parameters.
-* [Google Earth Pro](https://www.google.com/earth/about/)               - The world's most detailed globe.
-* [Gophish](https://github.com/gophish/gophish)                         - Open-Source Phishing Toolkit.
-* [H8mail](https://github.com/khast3x/h8mail)                           - Email OSINT & Password breach hunting tool, locally or using premium services.
-* [Harpoon](https://github.com/Te-k/harpoon)                            - CLI tool for open source and threat intelligence.
-* [Holehe](https://github.com/megadose/holehe)                          - Holehe check if the mail is used on different sites like twitter, instagram with the forgotten password.
-* [Ignorant](https://github.com/megadose/ignorant)                      - Ignorant allows you to check if a phone number is used on different sites like snapchat, instagram.
-* [ILS](https://github.com/bellingcat/instagram-location-search)        - Finds Instagram location IDs near a specified latitude and longitude.
-* [InstagramOsint](https://github.com/sc1341/InstagramOSINT)            - An Instagram Open Source Intelligence Tool.
-* [Instaloader](https://github.com/instaloader/instaloader)             - Download pictures (or videos) along with their captions and other metadata from Instagram.
-* [Ipinfo](https://github.com/ipinfo/cli)                               - Official Command Line Interface for the IPinfo API (IP geolocation and other types of IP data).
-* [Kamerka](https://github.com/woj-ciech/kamerka)                       - Build interactive map of cameras from Shodan.
-* [Linkedin2username](https://github.com/initstring/linkedin2username)  - OSINT Tool: Generate username lists for companies on LinkedIn.
-* [Mailcat](https://github.com/sharsil/mailcat)                         - Find existing email addresses by nickname using API/SMTP checking methods without user notification.
-* [Maigret](https://github.com/soxoj/maigret)                           - Collect a dossier on a person by username from thousands of sites.
-* [Maltego](https://www.maltego.com/)                                   - Comprehensive tool for graphical link analyses that offers real-time data mining and information gathering.
-* [Masto](https://github.com/C3n7ral051nt4g3ncy/Masto)                  - Masto is an OSINT tool written in python to gather intelligence on Mastodon users and instances.
-* [Metagoofil](https://github.com/laramies/metagoofil)                  - Metadata harvester.
-* [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)      - This tool gives information about the phone number that you entered.
-* [Mpv](https://github.com/mpv-player/mpv)                              - Command line video player.
-* [Nqntnqnqmb](https://github.com/megadose/nqntnqnqmb)                  - Allows you to retrieve information on linkedin profiles/companies and search on linkedin companies/persons.
-* [Nmap](https://nmap.org/)                                             - Utility for network discovery and security auditing.
-* [Octosuite](https://github.com/bellingcat/octosuite)                  - An all-in-one GitHub open-source intelligence framework.
-* [Onionsearch](https://github.com/megadose/OnionSearch)                - OnionSearch is a script that scrapes urls on different .onion search engines.
-* [Osintgram](https://github.com/Datalux/Osintgram)                     - Osintgram is a OSINT tool on Instagram.
-* [Osintmap](https://map.malfrats.industries/)                          - A map of OSINT tools.
-* [Phoneinfoga](https://github.com/sundowndev/phoneinfoga)              - Information gathering framework for phone numbers.
-* [Phonia](https:/$/github.com/coredamage/phonia)                       - Phonia Toolkit is one of the most advanced toolkits to scan phone numbers using only free resources.
-* [Photon](https://github.com/s0md3v/Photon)                            - Incredibly fast crawler designed for OSINT. 
-* [PD](https://github.com/limkokhole/pinterest-downloader)              - Download all images/videos from Pinterest user/board/section.
-* [Proton1ntelligence](https://github.com/C3n7ral051nt4g3ncy/Prot1ntelligence) - Protintelligence is a Python script for helps you to find intelligence on Protonmail users.
-* [Protosint](https://github.com/pixelbubble/ProtOSINT)                 - ProtOSINT is a Python script that helps you investigate Protonmail accounts and ProtonVPN IP addresses.
-* [Pwndb](https://github.com/davidtavarez/pwndb)                        - Search for leaked credentials.
-* [PwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)               - OSINT Tool for Finding Passwords of Compromised Email Addresses.
-* [Recon-ng](https://github.com/lanmaster53/recon-ng)                   - Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources.
-* [Reavealin](https://github.com/mxrch/revealin)                        - Uncover the full name of a target on Linkedin.
-* [Ripme](https://github.com/RipMeApp/ripme)                            - Downloads albums in bulk.
-* [Sherlock](https://github.com/sherlock-project/sherlock)              - Hunt down social media accounts by username across social networks.
-* [Shodan](https://github.com/achillean/shodan-python)                  - The official Python library for Shodan.
-* [Skiptracer](https://github.com/xillwillx/skiptracer)                 - OSINT python webscaping framework.
-* [SlackPirate](https://github.com/emtunc/SlackPirate)                  - Slack Enumeration and Extraction Tool - extract sensitive information from a Slack Workspace.
-* [SleuthKit](https://github.com/sleuthkit/sleuthkit)                   - The Sleuth Kit® is a ommand line digital forensics tools that allow you to investigate volume and file system data.
-* [SMWYG](https://github.com/Viralmaniar/SMWYG-Show-Me-What-You-Got)    - This tool allows you to perform OSINT and reconnaissance on an organisation or an individual.
-* [SMS](https://github.com/nemec/snapchat-map-scraper)                  - This program can search at multiple locations and download all stories for later investigation and categorization.
-* [Snoop](https://github.com/snooppr/snoop)                             - Snoop Project One of the most promising OSINT tools to search for nicknames.
-* [Snooper](https://github.com/NicholasDollick/Snooper)                 - OSINT Reddit user activity analyzer.
-* [Social-analyzer](https://github.com/qeeqbox/social-analyzer)         - API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites.
-* [SonicVisualiser](https://www.sonicvisualiser.org/download.html)      - Sonic Visualiser is a program for viewing and exploring audio data for semantic music analysis and annotation.
-* [Sqlitebrowser](https://github.com/sqlitebrowser/sqlitebrowser)       - Official home of the DB Browser for SQLite (DB4S) project.
-* [Spiderfoot](https://github.com/smicallef/spiderfoot)                 - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
-* [Stegoveritas](https://github.com/bannsec/stegoVeritas/)              - Yet another Stego Tool.
-* [Sterra](https://github.com/novitae/sterraxcyl)                       - Instagram OSINT tool to export and analyse followers | following with their details. 
-* [Telepathy](https://github.com/proseltd/Telepathy-Community)          - Public release of Telepathy, an OSINT toolkit for investigating Telegram chats.
-* [Telescan](https://github.com/pielco11/telescan)                      - Search users in groups (and in which groups is the user) by id, username or phone number (if it's in your contacts).
-* [Theharvester](https://github.com/laramies/theHarvester)              - E-mails, subdomains and names Harvester - OSINT.
-* [TD](https://github.com/krypton-byte/tiktok-downloader)               - Tiktok Downloader/Scraper using requests & bs4.
-* [Tinfoleak](https://github.com/vaguileradiaz/tinfoleak)               - The most complete open-source tool for Twitter intelligence analysis.
-* [TorBrowser](https://github.com/micahflee/torbrowser-launcher)        - Securely and easily download, verify, install, and launch Tor Browser in Linux.
-* [Torcrawl](https://github.com/MikeMeliz/TorCrawl.py)                  - Crawl and extract (regular or onion) webpages through TOR network.
-* [Translate-shell](https://github.com/soimort/translate-shell)         - Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
-* [Trape](https://github.com/jofpin/trape)                              - People tracker on the Internet: OSINT analysis and research tool by Jose Pino.
-* [Twint-zero](https://github.com/twintproject/twint-zero)              - Old Twint style, but zero fat.
-* [Unredacted](https://github.com/BishopFox/unredacter)                 - Never ever ever use pixelation as a redaction technique.
-* [Vt-cli](https://github.com/VirusTotal/vt-cli)                        - VirusTotal Command Line Interface.
-* [Waybackpy](https://github.com/akamhy/waybackpy)                      - Wayback Machine API interface & a command-line tool.
-* [Wafw00f](https://github.com/EnableSecurity/wafw00f)                  - WAFW00F allows one to identify and fingerprint Web Application Firewall (WAF) products protecting a website.
-* [WebOsint](https://github.com/C3n7ral051nt4g3ncy/WebOSINT)            - W3b0s1nt (WebOSINT) is a Python tool/script for passive Domain Intelligence gathering.
-* [Whatbreach](https://github.com/Ekultek/WhatBreach)                   - OSINT tool to find breached emails, databases, pastes, and relevant information.
-* [Xeuledoc](https://github.com/Malfrats/xeuledoc)                      - Fetch information about a public Google document.
-* [Yara](https://github.com/VirusTotal/yara)                            - The pattern matching swiss knife.
-* [Yoga](https://github.com/WebBreacher/yoga)                           - Your OSINT Graphical Analyzer.
-* [Yt-dlp](https://github.com/yt-dlp/yt-dlp)                            - A youtube-dl fork with additional features and fixes.
-* [Zen](https://github.com/s0md3v/Zen)                                  - Find emails of Github users.
-
-#######################################################################################
-# BOOKS
-#######################################################################################
-
-* [Wikipedia - List of Intelligence Gathering Disciplines](https://en.wikipedia.org/wiki/List_of_intelligence_gathering_disciplines).
-  * ([Wayback](https://web.archive.org/web/20211002002607/https://en.wikipedia.org/wiki/List_of_intelligence_gathering_disciplines)), ([archive.today](https://archive.ph/rfzRf)), ([WikiLess](https://wikiless.org/wiki/List_of_intelligence_gathering_disciplines?lang=en)).
-* [\[PDF\] DIA - Defense and Intelligence Abbreviations and Acronyms - November 1997](https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FOIA-Reading-Room-Other-Available-Records/FileId/39954/).
-  * ([Wayback](https://web.archive.org/web/20210810222713/https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FOIA-Reading-Room-Other-Available-Records/FileId/39954/)), ([Library Genesis](http://libgen.rs/book/index.php?md5=2ABBB54324D2F6403298914E7522D039)).
-* [\[PDF\] Counter Intelligence Glossary - Terms and Definitions of Interest for CI Professionals - June 2014](https://fas.org/irp/eprint/ci-glossary.pdf).
-  * ([Wayback](https://web.archive.org/web/20211002003503/https://irp.fas.org/eprint/ci-glossary.pdf)), ([Library Genesis](http://libgen.rs/book/index.php?md5=8567E71ED1658AF9496B5CEB780CFB1B)).
-
-
-## **Additional Reading Material**
+- [SunCalc](https://suncalc.net)
+- [SunCalc](https://suncalc.org)
+
+---
+
+## Fictional Account Creation
+
+Automatically generate fictional personas using the following online tools:
+
+- [This Person Does Not Exist](https://thispersondoesnotexist.com/)
+- [This Resume Does Not Exist](https://thisresumedoesnotexist.com/)
+- [This Rental Does Not Exist](https://thisrentaldoesnotexist.com)
+- [Fake Name Bio Generator](https://www.fakenamegenerator.com/)
+- [Random User Generator](https://randomuser.me/)
+- [Fake User Generator](https://uinames.com)
+- [Dating Profile Generator](https://www.dating-profile-generator.org.uk/)
+- [Fake Persona Generator](https://businer.com/fakeid.php)
+- [International Random Name Generator](https://www.behindthename.com/random/)
+
+---
+
+## Antiviruses
+
+- [Fuckingscan](http://fuckingscan.me/)
+- [Majyx Scan](http://v2.scan.majyx.net/)
+- [Nodistribute](http://nodistribute.com/)
+- [File2Scan](http://www.file2scan.net/)
+- [Anubis](http://anubis.iseclab.org/)
+- [Anonscanner](https://anonscanner.com/)
+- [Viruscan Jotti](http://virusscan.jotti.org/it)
+- [VirusTotal](https://www.virustotal.com/nl/)
+
+---
+
+## FILE_SHARING
+
+Anleitung zur Verwendung von `OnionShare`:
+
+1. Download & Install [OnionShare](https://onionshare.org)
+2. Press Connect with TOR Button
+3. Drag & Drop all Files you want to upload in the field
+4. Wait some time
+5. You'll get an [.]onion url aswell as an private key[.]
+6. Provide User's with the link and the Private key aswell as the download link for the tor browser[.]
+
+**Hinweis:** After you shared the File, you can stop file sharing at any time within OnionShare Application. This is useful if you for example want only 1 person to download it or if your link and private key got exposed to Users who shouldn't be able to download it.
+
+---
+
+## OSINT_Tools
+
+### ANONSEARCH:
+- [DuckDuckGo](https://duckduckgo.com/)
+- [Start Page](https://www.startpage.com/)
+- [Qwant](https://www.qwant.com/)
+- [Yacy](https://yacy.net/)
+
+### BOT/TROLL:
+- [Bot Sentinel](https://botsentinel.com/)
+- [Botometer](https://botometer.iuni.iu.edu/)
+- [Emergent](https://emergent.info)
+- [Faker Fact](https://www.fakerfact.org/about)
+- [Hoaxy](https://hoaxy.osome.iu.edu/)
+- [Iffy Quotient](https://csmr.umich.edu/plaform-health-metrics)
+- [Information Operations Archive](https://io-archive.org)
+- [Twitter Trails](http://twittertrails.com/)
+
+### FORENSICS TOOLS:
+- [Autopsy](https://www.autopsy.com) - Open source digital forensics platform to analyze hard drives and smart phones
+- [EnCase](https://www.opentext.com/products-and-solutions/products/software/encase-platform) - Commercial computer forensics software for e-discovery and investigations by OpenText
+- [AccessData (FTK)](https://accessdata.com/products-services/forensic-toolkit-ftk) - Forensic toolkit computer investigation software by AccessData
+- [X-Ways Forensics](http://www.x-ways.net/forensics/) - Integrated computer forensics software by X-Ways Software Technology
+- [Sleuth Kit](https://www.sleuthkit.org) - Open source digital forensics tools for analyzing disk images and file systems
+- [Volatility](https://www.volatilityfoundation.org/) - Memory forensics framework to analyze volatile memory dumps and artifacts
+- [Wireshark](https://www.wireshark.org) - Network protocol analyzer useful for network forensics and traffic analysis
+- [Cellebrite UFED](https://www.cellebrite.com/en/ufed-ultimate/) - Commercial mobile forensic software to extract data from phones and tablets
+- [Email Collector](https://www.accessdata.com/products-services/e-discovery/email-examination/ftk-email-collector) - Tool to collect and analyze email data during investigations
+- [Forensics (DFF)](https://github.com/arxsys/dff) - Digital forensics framework, an open source platform for investigations
+- [Magnet AXIOM](https://www.magnetforensics.com/products/magnet-axiom/) - Commercial digital investigations platform from Magnet Forensics
+- [Oxygen Detective](https://www.oxygen-forensic.com/en/oxygen-detective) - Cloud extraction tool for investigations involving cloud services
+- [OSForensics](https://www.osforensics.com/) - Specialized forensics tools for Microsoft systems from PassMark
+- [NetworkMiner](http://www.netresec.com/?page=NetworkMiner) - Open source network forensic analyzer useful for investigating traffic
+- [RegRipper](https://github.com/keydet89/RegRipper3.0) - Tool to parse Windows registry files and dig for useful data
+- [Bulk Extractor](https://github.com/simsong/bulk_extractor) - Scans disk images and extracts interesting bits of data
+- [Ghiro](http://www.getghiro.org/) - Website screenshots and analysis for forensic investigations
+- [Scalpel](http://www.digitalforensicssolutions.com/Scalpel/) - File carver which recovers files based on headers and footers
+- [HxD](https://mh-nexus.de/en/hxd/) - Hex editor useful for analyzing raw disk and memory dumps
+- [TestDisk](https://www.cgsecurity.org/wiki/TestDisk) - Data recovery tool, useful when file systems get corrupted
+- [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec) - Recovery tool specifically focused on photos and media files
+- [CAINE](https://www.caine-live.net) - Italian GNU/Linux live distribution with many forensics tools
+- [Axiom Cyber](https://axiomcyber.com/axiom-cyber/) - Commercial digital forensics and incident response platform
+- [Belkasoft Evidence](https://belkasoft.com/evidence) - Commercial all-in-one forensics solution for Windows, mobile, etc.
+- [Fibratus](https://www.jpcert.or.jp/english/pub/sr/ir_research.html) - Tool to explore and trace Windows kernel activity and data
+- [Autopsy Browser](https://www.autopsy.com/browser/) - GUI interface for Autopsy digital forensics platform
+- [Kali Linux](https://www.kali.org) - Penetration testing Linux distribution with many useful security tools
+- [DEFT](http://www.deftlinux.net) - Linux distribution configured specifically for computer forensics
+- [Volatility Framework](https://www.volatilityfoundation.org/) - Advanced memory forensics framework with plugins and APIs
+- [PyFlag](http://www.pyflag.net) - Legacy Australian forensic and log analysis GUI platform
+- [Plaso (log2timeline)](https://plaso.readthedocs.io/en/latest/sources/user/log2timeline.html) - Extract timestamps from various logs and aggregate timeline
+- [TSK (The Sleuth Kit)](https://www.sleuthkit.org/sleuthkit/) - File system and disk analysis tools originally focused on NTFS iniuria boot loader
+- [Redline](https://www.fireeye.com/services/freeware/redline.html) - Host investigations and malware analysis tool by FireEye
+- [Snort](https://www.snort.org) - Open source intrusion detection and network monitoring system
+- [Tcpdump](https://www.tcpdump.org) - Capture and analyze network traffic on Unix-like systems
+- [Ngrep](http://ngrep.sourceforge.net/) - Search within network traffic payloads like grep for text streams
+- [dcfldd](https://dcfldd.sourceforge.net/) - Disk cloning and forensics tool, version of dd with hashing
+- [SIFT (SANS)](https://digital-forensics.sans.org/community/downloads) - Ubuntu-based distribution for forensic analysis
+- [Paladin](https://sumuri.com/software/paladin/) - USB image mounted as virtual drive with write-protection
+- [CAINE Live](https://www.caine-live.net/page5/page5.html) - Self-contained bootable forensic environment
+- [XRY (XAMN)](https://msab.com/xry/) - Commercial mobile forensic software to analyze phones
+- [BlackLight](https://www.blackbagtech.com/blacklight.html) - Powerful Windows-based forensics analysis platform
+- [WinHex](https://www.x-ways.net/winhex/) - Hex editor, particularly helpful for low-level analyzing raw data
+- [Access FTK Imager](https://accessdata.com/product-download) - Disk and volume imaging software from AccessData
+- [DC3DD](https://github.com/Defense-Cyber-Center/DC3-DD) - Improved version of dd for forensics, handles errors better
+- [Raptor](http://forensic.rampar.net/) - Validation tool to verify the integrity of forensic copies
+- [EnCase Imager](https://www.guidancesoftware.com/encase-imager) - Disk imaging tool from Guidance Software
+- [Guymager](https://guymager.sourceforge.io) - Open source disk cloning and imaging tool for Linux
+- [Extundelete](http://extundelete.sourceforge.net/) - Used to recover deleted files from mountable images
+- [Xplico](http://www.xplico.org/) - Network forensics tool that rebuilds sessions from traffic
+- [Foremost](http://foremost.sourceforge.net) - File carving utility to recover files using header/footer definitions
+- [Live View](http://liveview.sourceforge.net/) - Volatile memory analysis tool for Windows systems
+- [Yara](https://github.com/VirusTotal/yara) - Pattern matching tool aimed at malware researchers
+- [Checkm8](https://checkm8.info/) - Jailbreaking tool extracting data from passcode locked iOS devices
+- [Olefile](https://github.com/decalage2/olefile) - Python package for parsing OLE and Office documents
+- [Pyew](https://github.com/joxeankoret/pyew) - Python tool for malware analysis, static and dynamic
+- [USBDeview](https://www.nirsoft.net/utils/usb_devices_view.html) - Handy Windows tool listing all USB devices ever connected
+- [DC3-MWCP](https://www.dc3.mil/software-catalog/) - Collection of tools for forensic enterprise analysis from DC3
+- [Memoryze](https://www.fireeye.com/services/freeware/memoryze.html) - Memory acquisition and analysis tool for Windows systems
+- [EVTExtract](https://evtxtract.readthedocs.io/en/latest/) - Automated parsing modules for Windows event log records
+
+### OSINT TOOLS:
+- [Nmap](https://nmap.org/) - Network scanning and host discovery tool helpful for reconnaissance
+- [OSINT Framework](https://osintframework.com/) - Gathering publicly available online data regarding targets
+- [Recon-ng](https://github.com/lanmaster53/recon-ng) - Web-based open source reconnaissance framework
+- [SpiderFoot](https://www.spiderfoot.net/) - OSINT automation tool gathering threat intelligence data
+- [Metagoofil](https://github.com/laramies/metagoofil) - Extract metadata of public documents from a target website
+- [TheHarvester](https://github.com/laramies/theHarvester) - Gather emails, names, URLs from different public sources
+- [Creepy](https://www.geocreepy.com/) - Geolocation OSINT tool to extract target location information from social media profiles
+
+### DOMAIN:
+- [Analyze ID](https://analyzeid.com)
+- [DNS Trails](https://dnstrails.com)
+- [Domain Big Data](https://domainbigdata.com)
+- [DomainIQ](https://domainiq.com/snapshot/history)
+- [Spyse](https://spyse.com)
+- [ViewDNS Whois](https://viewdns.info)
+- [Whoismind](https://whoismind.com)
+- [Whoisology](https://whoisology.com)
+- [Whoxy](https://whoxy.com/reverse-whois)
+
+### EMAIL:
+- [Holehe](https://github.com/megadose/holehe)
+- [GitHub Email Scraper](https://github.com/andyjsmith/GitHub-Email-Scraper)
+- [Mosint](https://github.com/alpkeskin/mosint)
+- [Cynic](https://ashley.cynic.al)
+- [Dehashed](https://dehashed.com)
+- [Email Format](https://email-format.com)
+- [Email Hippo](https://tools.verifyemailadress.io)
+- [Ghost Project](https://ghostproject.fr)
+- [HaveIBeenPwned](https://haveibeenpwned.com)
+- [Hunter](https://hunter.io)
+- [IntelligenceX](https://intelx.io)
+- [Leak Phone](https://leakprobe.net)
+- [Leaked Source](https://leakedsource.ru)
+- [Many Contacts](https://mancontacts.com/en/mail-check)
+- [PasteBinDump](https://psbdmp.ws)
+- [Public Mail Records](https://publicmailrecords.com)
+- [Simple Email Reputation](https://emailrep.io)
+- [Spycloud](https://spycloud.com)
+- [Spytox](https://spytox.com)
+- [TruMail](https://trumail.io)
+- [Verify Email](https://verify-email.org)
+
+### FORENSICS:
+- [ExifData](https://exifdata.com)
+- [Extract Metadata](https://extractmetadata.com)
+- [Foto Forensics](https://fotoforensics.com)
+- [Forensically](https://291.ch/photo-forensics)
+- [MetaPicz](https://metapicz.com)
+- [Image Verification](https://reveal-mklab.iti.gr/reveal/index.html)
+- [WayBack Machine](https://archive.org)
+
+### INFRASTRUCTURE:
+- [Analyze ID](https://analyzeid.com)
+- [Backlink Checker](https://smallseotools.com/backlink-checker)
+- [Built With](https://builtwith.com)
+- [Carbon Dating](https://carbondate.cs.odu.edu)
+- [Censys](https://censys.io)
+- [Certificate Transparency Logs](https://crt.sh)
+- [DNS Dumpster](https://dnsdumpster.com)
+- [Builtwith](https://builtwith.com/)
+- [Pagodo](https://github.com/opsdisk/pagodo)
+- [DomainIQ](https://domainiq.com/revers_analytics)
+- [FOFA](https://fofa.sofern)
+- [Find Sub Domains](https://findsubdomains.com)
+- [Follow That Page](https://followthatpage.ccom)
+- [IntelX Google ID](https://intelx.io/tools?tab=analytics)
+- [MX Toolbox](https://mxtoolbox.com)
+- [Nerdy Data](https://search.nerdydata.com)
+- [Pentest Tools](https://pentest-tools.com/reconnaissance/find-subdomains-of-domain)
+- [PubDB](https://pub-db.com)
+- [PublicWWW Source Code](https://publicwww.com)
+- [Records Finder](https://recordsfinder.com/email)
+- [Shared Count](https://sharedcount.com)
+- [Shodan](https://shodan.io)
+- [Similar Web](https://similarweb.com)
+- [Spy On Web](https://spyonweb.com)
+- [Spyse](https://spyse.com)
+- [Thingful (IoT)](https://thingful.net)
+- [Threat Crowd](https://threatcrowd.org)
+- [Threat Intelligence Platform](https://threatintelligenceplatform.com)
+- [URLscan](https://urlscan.io)
+- [Virus Total](https://virustotal.com)
+- [Visual Site Mapper](http://visualsitemapper.com)
+- [Wigle](http://wigle.net)
+- [Zoom Eye](http://zoomeye.org)
+
+### IP ADDRESS:
+- [Censys](http://censys.io/ipv4)
+- [Exonerator](http://exonerator.torproject.org)
+- [IPLocation](http://iplocation.net)
+- [Shodan](http://shodan.io)
+- [Spyse](http://spyse.com)
+- [Threat Crowd](http://threatcrowd.org)
+- [Threat Intelligence Platform](http://threatintelligenceplatform.com)
+- [ViewDNS Reverse IP](http://viewdns.info/reverseip)
+- [ViewDNS Port Scan](http://viewdns.info/portscan)
+- [ViewDNS Whois](http://viewdns.info/whois)
+- [ViewDNS IP Location](http://viewdns.info/iplocation)
+- [Virus Total](http://virustotal.com)
+
+### IP LOG/SHORTENER:
+- [Bit.do](http://bit.do)
+- [Bitly](http://bitly.com)
+- [Canary Tokens](http://canarytokens.org)
+- [Check Short URL](http://checkshorturl.com)
+- [Get Notify](http://getnotify.com)
+- [Google URL Shortener](http://goo.gl)
+- [IP Logger](http://iplogger.org)
+- [Tiny](http://tiny.cc)
+- [URL Biggy](http://urlbiggy.com)
+
+### LIVE CAMERAS:
+- [Airport Webcams](http://airportwebcams.net)
+- [EarthCam](http://earthcam.com)
+- [Opentopia](http://opentopia.com/hiddencam.php)
+- [Open Webcam Network](http://the-webcam-network.com)
+- [Webcam Galore](http://webcamgalore.com)
+- [WorldCam](http://worldcam.eu)
+
+### METADATA:
+- [Exif Info](http://exifinfo.org)
+- [Extract Metadata](http://extractmetadata.com)
+- [Forensically](http://29a.ch/photo-forensics)
+- [Get Metadata](http://get-metadata.com)
+- [Jeffrey's Exif Viewer](http://exif.regex.info/exif.cgi)
+- [Online Barcode Reader](http://online-barcode-reader/inliteresearch.com)
+
+### IMAGES:
+- [Imgops](https://imgops.com/)
+- [Depix](https://github.com/spipm/Depixelization_poc)
+
+### OPEN DIRECTORY SEARCH:
+- [Filer](http://rsch.neocities.org/gen2filer.html)
+- [File Chef](http://filechef.com)
+- [File Pursuit](http://filepursuit.com)
+- [Mamont](http://mmnt.net)
+- [Open Directory Search Tool](http://opendirsearch.abifog.com)
+- [Open Directory Search Portal](http://eyeofjustice.com/od/)
+- [Musgle](http://musgle.com)
+- [Lendex](http://lendex.org)
+
+### SATELLITE:
+- [Bing Maps](http://bing.com/maps)
+- [Descartes Labs](http://map.descarteslabs.com)
+- [Dual Maps](http://data.mashedworld.com/dualmaps/map.htm)
+- [Google Maps](http://maps.google.com)
+- [Wikimapia](http://wikimapia.com)
+- [World Imagery WayBack](http://livingatlas.arcgis.com/wayback)
+- [Yandex Maps](http://yandex.com/maps)
+- [Zoom Earth](http://zoomeath.com)
+
+### TELEPHONE:
+- [Carrier Lookup](http://carrierlookup.com)
+- [Dehashed](http://dehashed.com)
+- [Everyone API](http://everyoneapi.com)
+- [Free Carriers Lookup](http://freecarrierlookup.com)
+- [Nuwber](http://nuwber.com)
+- [Old Phone Book](http://oldphonebook.com)
+- [Open CNAM](http://opencnam.com)
+- [People Search Now](http://peoplesearchnow.com)
+- [Sly Dial](http://slydail.com)
+- [Spy Dialer](https://spydialer.com)
+- [Spytox](https://spytox.com)
+- [That's Them](https://thatsthem.com)
+- [True Caller](https://truecaller.com)
+- [Twilio](https://twilio.com/lookup)
+
+### TOR:
+- [Ahmia](https://ahmia.fi)
+- [Dark Search](https://darksearch.io)
+- [Tor2Web](https://tor2web.org)
+- [Not Evil (Inside Tor)](https://hss3uro2hsxfogfq.onion)
+
+### VEHICLE:
+- [Nomerogram - RU Plates](https://nomerogram.ru)
+- [Vin-Info](https://vin-info.com)
+- [World License Plates](https://worldlicenseplates.com)
+
+### GITHUB:
+- [Shhgit](https://github.com/eth0izzle/shhgit)
+
+### USERNAME:
+- [Sherlock](https://github.com/sherlock-project/sherlock)
+- [Nexfil](https://github.com/thewhiteh4t/nexfil)
+- [Know Em](https://knowem.com)
+- [Name Checkr](https://namecheckr.com)
+- [Name Vine](https://namevine.com)
+- [User Search](https://usersearch.org)
+- [Discord Info](https://discord.id/)
+- [socid_extractor](https://github.com/soxoj/socid-extractor)
+- [Webmii](https://webmii.com/)
+- [PimEyes](https://pimeyes.com/en)
+- [Agcom](https://www.agcom.it/node/42043)
+- [Facecheck](https://facecheck.id/de)
+- [Google GHunt](https://github.com/mxrch/GHunt)
+
+---
+
+## OSINT_Resources
+
+- [OSINT Framework](https://osintframework.com/)
+- [BELLINGCAT's ONLINE INVESTIGATION TOOLKIT](https://t.co/5vewV5ab5N)
+- [Aware Online OSINT Tools](https://www.aware-online.com/en/osint-tools/)
+- [OSINT Techniques Tools](https://www.osinttechniques.com/osint-tools.html)
+- [OSINTCurious 10 Minute Tips](https://osintcurio.us/10-minute-tips/)
+- [Investigative Dashboard](https://investigativedashboard.org)
+- [Week in OSINT (Sector035)](https://medium.com/@sector035)
+- [I-Intelligence OSINT Resources Handbook](https://www.i-intelligence.eu/wp-content/uploads/2018/06/OSINT_Handbook_June-2018_Final.pdf)
+- [AWSOME OSINT Github](https://github.com/jivoi/awesome-osint)
+- [Ph055a's OSINT Collection](https://github.com/Ph055a/OSINT_Collection)
+- [Collection of 4000+ OSINT resources](https://metaosint.github.io/table)
+
+### Tools lists
+- [rengine](https://github.com/yogeshojha/rengine)
+- [OSINT4ALL](https://start.me/p/L1rEYQ/osint4all)
+- [Username dataminer](https://anonpaste.io/share/0b00ed50a9)
+- [Blackbird - Username dataminer](https://github.com/p1ngul1n0/blackbird)
+- [DiscordChatExporter - Discord chat dataminer](https://github.com/Tyrrrz/DiscordChatExporter)
+
+### Other resources
+- [Anonymous Planet](https://anonymousplanet.org/) - A very long and comprehensive guide about how to stay anonymous on the internet
+- [Shit Express](https://www.shitexpress.com/) - Mail a box of shit
+- [Confetti Mail Bomb](https://confettimailbomb.com/) - Mail troll items like a glitter bomb
+- [Ruindays](https://www.ruindays.com/) - Mail even more troll items like a dickhead trophy
+- [FBI Tools](https://github.com/danieldurnea/FBI-tools)
+- [White Pages](https://www.whitepages.com/person) - This website is also people search engine but you can get info about people through their name, address or phone number
+- [Email Hippo](https://tools.emailhippo.com/) - If you have email of the target and you want to check whether it's working or not you can check it in this website
+- [Webmii](https://webmii.com/) - A great website for gathering info about people with their name
+- [Namecheckup](https://namecheckup.com/) - Username search engine, and shows the social media accounts with that usernames
+- [Namechk](https://namechk.com/) - Category: Research Needed
+- [Twitonomy](https://www.twitonomy.com/dashboard.php) - Twitter Search Analytics tool
+- [Socialbearing](https://socialbearing.com/) - Creating a Twitter Search & Analytics tool
+- [Hashing the Secret Life of Data](https://ostradecraft.medium.com/hashing-the-secret-life-of-data-cab1ac245280) - For OSINT practitioners, hashing can be an extremely valuable addition to their workflow, both as a verification tool and a documentation method
+- [Fast People Search](https://www.fastpeoplesearch.com/) - People search
+- [OSINT ROCKS](https://osint.rocks/)
+- [Open Source Intelligence Gathering Resource](https://rentry.co/gk3qbkog)
+
+---
+
+## Osint tools
+
+- [leakpeek](https://leakpeek.com/)
+- [flare](https://try.flare.io/jh/)
+- [Rae Baker, OSINT List](https://start.me/p/7kYgk2/rae-baker-deep-dive-osint)
+- [DeDigger](https://www.dedigger.com/)
+- [Awesome-OSINT-for-everything github repository](https://github.com/Astrosp/Awesome-OSINT-For-Everything)
+- [OSINT framework](https://osintframework.com/)
+- [OSINT list of tools rentry blog](https://rentry.co/gk3qbkog)
+- [FBI OSINT tools github repository](https://github.com/danieldurnea/FBI-tools)
+- [8 Must-Have Infrastructure Reconnaissance Tools](https://dev.to/brightdevs/8-must-have-infrastructure-reconnaissance-tools-for-your-app-security-5fc3)
+- [OSINT astrosp github repository](https://github.com/Astrosp/osint-tools)
+- [OSINT Handbook 2020](https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_2020.pdf)
+- [Phonebook.cz](https://phonebook.cz/)
+- [OSINT tools start.me](https://start.me/p/7kYgk2/rae-baker-deep-dive-osint)
+- [Pimeyes](https://pimeyes.com) - Find faces online
+- [Facecheck](https://facecheck.id/) - Find faces online
+- [Lampyre](https://lampyre.io/) - Data analysis & OSINT tool for everyone
+- [Collection of 4000+ OSINT resources](https://metaosint.github.io/table)
+- [Gitfive OSINT tool](https://reconshell.com/gitfive-osint-tool/)
+- [Wireless network osint](https://digitalinvestigator.blogspot.com/2022/12/wireless-network-osint.html)
+- [Hashing](https://ostradecraft.medium.com/hashing-the-secret-life-of-data-cab1ac245280)
+- [Twitter OSINT 1](https://socialbearing.com/)
+- [Twitter OSINT 2](https://www.twitonomy.com/dashboard.php)
+- [WEBMII - People search engine](https://webmii.com/)
+- [WHITEPAGES - People search engine](https://www.whitepages.com/person)
+- [NAMECHECKUP - People search engine](https://namecheckup.com/)
+- [NAMECHK - People search engine](https://namechk.com/)
+- [Email Hippo - Check email target](https://tools.emailhippo.com/)
+- [Hunter - Gather company info](https://hunter.io/)
+
+### Command Line Tools
+- [Amass](https://github.com/owasp-amass/amass) - In-depth attack surface mapping and asset discovery
+- [Atscan](https://github.com/AlisamTechnology/ATSCAN) - Advanced dork Search & Mass Exploit Scanner
+- [Bdfr](https://github.com/aliparlakci/bulk-downloader-for-reddit) - Downloads and archives content from reddit
+- [Blackbird](https://github.com/p1ngul1n0/blackbird) - An OSINT tool to search for accounts by username in social networks
+- [Binwalk](https://github.com/ReFirmLabs/binwalk) - Firmware Analysis Tool
+- [Carbon14](https://github.com/Lazza/Carbon14) - OSINT dating tool for web pages
+- [Cardpwn](https://github.com/itsmehacker/CardPwn) - OSINT Tool to find Breached Credit Cards Information
+- [Chatgpt-shell-cli](https://github.com/0xacx/chatGPT-shell-cli) - Simple shell script to use OpenAI's ChatGPT and DALL-E from the terminal. No Python or JS required
+- [Cloud_enum](https://github.com/initstring/cloud_enum) - Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud
+- [Cloud_sherlock](https://github.com/Group-IB/cloud_sherlock) - Enum S3 buckets and SaaS
+- [Crosslinked](https://github.com/m8sec/CrossLinked) - LinkedIn enumeration tool to extract valid employee names from an organization through search engine scraping
+- [DumpsterDiver](https://github.com/securing/DumpsterDiver) - Tool to search secrets in various filetypes
+- [Elasticsearch](https://github.com/elastic/elasticsearch) - Free and Open, Distributed, RESTful Search Engine
+- [Email2phonenumber](https://github.com/martinvigo/email2phonenumber) - A OSINT tool to obtain a target's phone number just by having his email address
+- [Emdofi](https://github.com/novitae/emdofi) - Uncovers a censored email's domain
+- [ExchangeFinder](https://github.com/mhaskar/ExchangeFinder) - Find Microsoft Exchange instance for a given domain and identify the exact version
+- [Exiflooter](https://github.com/aydinnyunus/exifLooter) - ExifLooter finds geolocation on all image urls and directories also integrates with OpenStreetMap
+- [Exiv2](https://github.com/Exiv2/exiv2) - Image metadata library and tools
+- [FacebookOsint](https://github.com/tomoneill19/FacebookOSINT) - FBOSINT - A tool to replace facebook graph search Resources
+- [Fake-sms](https://github.com/Narasimha1997/fake-sms) - A tool to skip phone number based SMS verification by using a temporary phone number that acts like a proxy
+- [Fbi](https://github.com/xHak9x/fbi) - Facebook Information
+- [Ffmpeg](https://archlinux.org/packages/extra/x86_64/ffmpeg/) - Complete solution to record, convert and stream audio and video
+- [Fierce](https://github.com/mschwager/fierce) - A DNS reconnaissance tool for locating non-contiguous IP space
+- [FinalRecon](https://github.com/thewhiteh4t/FinalRecon) - The Last Web Recon Tool You'll Need
+- [Foremost](https://github.com/korczis/foremost) - Foremost is a console program to recover files based on their headers, footers, and internal data structures
+- [Gallery-dl](https://github.com/mikf/gallery-dl) - Command-line program to download image galleries and collections from several image hosting sites
+- [GhostTrack](https://github.com/HunxByts/GhostTrack) - Useful tool to track location or mobile number
+- [Ghunt](https://github.com/mxrch/GHunt) - Offensive Google framework
+- [Gitfive](https://github.com/mxrch/GitFive) - Track down GitHub users
+- [Githound](https://github.com/tillson/git-hound) - Reconnaissance tool for GitHub code search
+- [Gitleaks](https://github.com/gitleaks/gitleaks) - Protect and discover secrets using Gitleaks
+- [Gobuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go
+- [GooFuzz](https://github.com/m3n0sd0n4ld/GooFuzz) - GooFuzz is a tool to perform fuzzing with an OSINT approach, managing to enumerate directories, files, subdomains or parameters
+- [Google Earth Pro](https://www.google.com/earth/about/) - The world's most detailed globe
+- [Gophish](https://github.com/gophish/gophish) - Open-Source Phishing Toolkit
+- [H8mail](https://github.com/khast3x/h8mail) - Email OSINT & Password breach hunting tool, locally or using premium services
+- [Harpoon](https://github.com/Te-k/harpoon) - CLI tool for open source and threat intelligence
+- [Holehe](https://github.com/megadose/holehe) - Holehe check if the mail is used on different sites like twitter, instagram with the forgotten password
+- [Ignorant](https://github.com/megadose/ignorant) - Ignorant allows you to check if a phone number is used on different sites like snapchat, instagram
+- [ILS](https://github.com/bellingcat/instagram-location-search) - Finds Instagram location IDs near a specified latitude and longitude
+- [InstagramOsint](https://github.com/sc1341/InstagramOSINT) - An Instagram Open Source Intelligence Tool
+- [Instaloader](https://github.com/instaloader/instaloader) - Download pictures (or videos) along with their captions and other metadata from Instagram
+- [Ipinfo](https://github.com/ipinfo/cli) - Official Command Line Interface for the IPinfo API (IP geolocation and other types of IP data)
+- [Kamerka](https://github.com/woj-ciech/kamerka) - Build interactive map of cameras from Shodan
+- [Linkedin2username](https://github.com/initstring/linkedin2username) - OSINT Tool: Generate username lists for companies on LinkedIn
+- [Mailcat](https://github.com/sharsil/mailcat) - Find existing email addresses by nickname using API/SMTP checking methods without user notification
+- [Maigret](https://github.com/soxoj/maigret) - Collect a dossier on a person by username from thousands of sites
+- [Maltego](https://www.maltego.com/) - Comprehensive tool for graphical link analyses that offers real-time data mining and information gathering
+- [Masto](https://github.com/C3n7ral051nt4g3ncy/Masto) - Masto is an OSINT tool written in python to gather intelligence on Mastodon users and instances
+- [Metagoofil](https://github.com/laramies/metagoofil) - Metadata harvester
+- [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project) - This tool gives information about the phone number that you entered
+- [Mpv](https://github.com/mpv-player/mpv) - Command line video player
+- [Nqntnqnqmb](https://github.com/megadose/nqntnqnqmb) - Allows you to retrieve information on linkedin profiles/companies and search on linkedin companies/persons
+- [Nmap](https://nmap.org/) - Utility for network discovery and security auditing
+- [Octosuite](https://github.com/bellingcat/octosuite) - An all-in-one GitHub open-source intelligence framework
+- [Onionsearch](https://github.com/megadose/OnionSearch) - OnionSearch is a script that scrapes urls on different .onion search engines
+- [Osintgram](https://github.com/Datalux/Osintgram) - Osintgram is a OSINT tool on Instagram
+- [Osintmap](https://map.malfrats.industries/) - A map of OSINT tools
+- [Phoneinfoga](https://github.com/sundowndev/phoneinfoga) - Information gathering framework for phone numbers
+- [Phonia](https://github.com/coredamage/phonia) - Phonia Toolkit is one of the most advanced toolkits to scan phone numbers using only free resources
+- [Photon](https://github.com/s0md3v/Photon) - Incredibly fast crawler designed for OSINT
+- [PD](https://github.com/limkokhole/pinterest-downloader) - Download all images/videos from Pinterest user/board/section
+- [Proton1ntelligence](https://github.com/C3n7ral051nt4g3ncy/Prot1ntelligence) - Protintelligence is a Python script for helps you to find intelligence on Protonmail users
+- [Protosint](https://github.com/pixelbubble/ProtOSINT) - ProtOSINT is a Python script that helps you investigate Protonmail accounts and ProtonVPN IP addresses
+- [Pwndb](https://github.com/davidtavarez/pwndb) - Search for leaked credentials
+- [PwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot) - OSINT Tool for Finding Passwords of Compromised Email Addresses
+- [Recon-ng](https://github.com/lanmaster53/recon-ng) - Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources
+- [Reavealin](https://github.com/mxrch/revealin) - Uncover the full name of a target on Linkedin
+- [Ripme](https://github.com/RipMeApp/ripme) - Downloads albums in bulk
+- [Sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username across social networks
+- [Shodan](https://github.com/achillean/shodan-python) - The official Python library for Shodan
+- [Skiptracer](https://github.com/xillwillx/skiptracer) - OSINT python webscaping framework
+- [SlackPirate](https://github.com/emtunc/SlackPirate) - Slack Enumeration and Extraction Tool - extract sensitive information from a Slack Workspace
+- [SleuthKit](https://github.com/sleuthkit/sleuthkit) - The Sleuth Kit® is a command line digital forensics tools that allow you to investigate volume and file system data
+- [SMWYG](https://github.com/Viralmaniar/SMWYG-Show-Me-What-You-Got) - This tool allows you to perform OSINT and reconnaissance on an organisation or an individual
+- [SMS](https://github.com/nemec/snapchat-map-scraper) - This program can search at multiple locations and download all stories for later investigation and categorization
+- [Snoop](https://github.com/snooppr/snoop) - Snoop Project One of the most promising OSINT tools to search for nicknames
+- [Snooper](https://github.com/NicholasDollick/Snooper) - OSINT Reddit user activity analyzer
+- [Social-analyzer](https://github.com/qeeqbox/social-analyzer) - API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media websites
+- [SonicVisualiser](https://www.sonicvisualiser.org/download.html) - Sonic Visualiser is a program for viewing and exploring audio data for semantic music analysis and annotation
+- [Sqlitebrowser](https://github.com/sqlitebrowser/sqlitebrowser) - Official home of the DB Browser for SQLite (DB4S) project
+- [Spiderfoot](https://github.com/smicallef/spiderfoot) - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface
+- [Stegoveritas](https://github.com/bannsec/stegoVeritas/) - Yet another Stego Tool
+- [Sterra](https://github.com/novitae/sterraxcyl) - Instagram OSINT tool to export and analyse followers | following with their details
+- [Telepathy](https://github.com/proseltd/Telepathy-Community) - Public release of Telepathy, an OSINT toolkit for investigating Telegram chats
+- [Telescan](https://github.com/pielco11/telescan) - Search users in groups (and in which groups is the user) by id, username or phone number (if it's in your contacts)
+- [Theharvester](https://github.com/laramies/theHarvester) - E-mails, subdomains and names Harvester - OSINT
+- [TD](https://github.com/krypton-byte/tiktok-downloader) - Tiktok Downloader/Scraper using requests & bs4
+- [Tinfoleak](https://github.com/vaguileradiaz/tinfoleak) - The most complete open-source tool for Twitter intelligence analysis
+- [TorBrowser](https://github.com/micahflee/torbrowser-launcher) - Securely and easily download, verify, install, and launch Tor Browser in Linux
+- [Torcrawl](https://github.com/MikeMeliz/TorCrawl.py) - Crawl and extract (regular or onion) webpages through TOR network
+- [Translate-shell](https://github.com/soimort/translate-shell) - Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc
+- [Trape](https://github.com/jofpin/trape) - People tracker on the Internet: OSINT analysis and research tool by Jose Pino
+- [Twint-zero](https://github.com/twintproject/twint-zero) - Old Twint style, but zero fat
+- [Unredacted](https://github.com/BishopFox/unredacter) - Never ever ever use pixelation as a redaction technique
+- [Vt-cli](https://github.com/VirusTotal/vt-cli) - VirusTotal Command Line Interface
+- [Waybackpy](https://github.com/akamhy/waybackpy) - Wayback Machine API interface & a command-line tool
+- [Wafw00f](https://github.com/EnableSecurity/wafw00f) - WAFW00F allows one to identify and fingerprint Web Application Firewall (WAF) products protecting a website
+- [WebOsint](https://github.com/C3n7ral051nt4g3ncy/WebOSINT) - W3b0s1nt (WebOSINT) is a Python tool/script for passive Domain Intelligence gathering
+- [Whatbreach](https://github.com/Ekultek/WhatBreach) - OSINT tool to find breached emails, databases, pastes, and relevant information
+- [Xeuledoc](https://github.com/Malfrats/xeuledoc) - Fetch information about a public Google document
+- [Yara](https://github.com/VirusTotal/yara) - The pattern matching swiss knife
+- [Yoga](https://github.com/WebBreacher/yoga) - Your OSINT Graphical Analyzer
+- [Yt-dlp](https://github.com/yt-dlp/yt-dlp) - A youtube-dl fork with additional features and fixes
+- [Zen](https://github.com/s0md3v/Zen) - Find emails of Github users
+
+---
+
+## BOOKS
+
+- [Wikipedia - List of Intelligence Gathering Disciplines](https://en.wikipedia.org/wiki/List_of_intelligence_gathering_disciplines)
+  - ([Wayback](https://web.archive.org/web/20211002002607/https://en.wikipedia.org/wiki/List_of_intelligence_gathering_disciplines)), ([archive.today](https://archive.ph/rfzRf)), ([WikiLess](https://wikiless.org/wiki/List_of_intelligence_gathering_disciplines?lang=en))
+- [PDF: DIA - Defense and Intelligence Abbreviations and Acronyms - November 1997](https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FOIA-Reading-Room-Other-Available-Records/FileId/39954/)
+  - ([Wayback](https://web.archive.org/web/20210810222713/https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FOIA-Reading-Room-Other-Available-Records/FileId/39954/)), ([Library Genesis](http://libgen.rs/book/index.php?md5=2ABBB54324D2F6403298914E7522D039))
+- [PDF: Counter Intelligence Glossary - Terms and Definitions of Interest for CI Professionals - June 2014](https://fas.org/irp/eprint/ci-glossary.pdf)
+  - ([Wayback](https://web.archive.org/web/20211002003503/https://irp.fas.org/eprint/ci-glossary.pdf)), ([Library Genesis](http://libgen.rs/book/index.php?md5=8567E71ED1658AF9496B5CEB780CFB1B))
+
+### Additional Reading Material
 
 This is a list of open-source related books, manuals, articles and research papers that you should read, or at the very least download and/or purchase for future reference.
 
-* [OSINT Techniques: Resources for Uncovering Online Information 10th Edition - Michael Bazzell - 2023](https://inteltechniques.com/book1.html).
-  * If you are only going to read one book here, then it should be this one :3 
-  * ([archive.today](https://archive.ph/nU1Os)).
-* [\[PDF\] US Army - Open-Source Intelligence ATP 2-22.9 - June 2017 - Redacted Copy](https://irp.fas.org/doddir/army/atp2-22-9-2017.pdf).
-  * ([Wayback](https://web.archive.org/web/20210926093547/https://irp.fas.org/doddir/army/atp2-22-9-2017.pdf)), ([Library Genesis](http://libgen.rs/book/index.php?md5=B294FA28A8F5E1C52CB7DFE3B391A83C)).
-* [\[PDF\] US Army - Open-Source Intelligence - ATP 2-22.9 - July 2012](https://fas.org/irp/doddir/army/atp2-22-9.pdf).
-  * ([Wayback](https://web.archive.org/web/20210926093517/https://irp.fas.org/doddir/army/atp2-22-9.pdf)), ([Library Genesis](https://libgen.rs/book/index.php?md5=090D419ADE50C0E268587291E5F35EC6)).
-* [\[PDF\] Joint Military Intelligence Training Center - Open Source Intelligence Professional Handbook - October 1996](http://www.oss.net/dynamaster/file_archive/080807/a3127ddeaa9a083affdddce6766401fc/Open%20Source%20Intelligence_Professional%20Handbook.pdf).
-  * ([Wayback](https://web.archive.org/web/20211011044535/http://www.oss.net/dynamaster/file_archive/080807/a3127ddeaa9a083affdddce6766401fc/Open%20Source%20Intelligence_Professional%20Handbook.pdf)), ([Library Genesis](https://libgen.rs/book/index.php?md5=0EFC24973A3CBE8ED28AE01327772AC5)).
-* [\[PDF\] US Department of Justice - Legal Considerations when Gathering Online Cyber Threat Intelligence and Purchasing Data from Illicit Sources - 2020](https://www.justice.gov/criminal-ccips/page/file/1252341/download).
-  * ([Wayback](https://web.archive.org/web/20210808074010/https://www.justice.gov/criminal-ccips/page/file/1252341/download)), ([Library Genesis](https://libgen.rs/book/index.php?md5=D9ED377FB72DFCA4E05403E6BE474D44)).
-* [\[PDF\] The Psychology of Intelligence Analysis - Heuer, R. - 2006](https://www.ialeia.org/docs/Psychology_of_Intelligence_Analysis.pdf).
-  * ([Wayback](https://web.archive.org/web/20211011071927/https://www.ialeia.org/docs/Psychology_of_Intelligence_Analysis.pdf)), ([Library Genesis](https://libgen.rs/book/index.php?md5=8597CA7B3A51B41702D419CBDC003BFA)).
-* [\[PDF\] Romanian Intelligence Service - OSINT Handbook - Undated](http://bib.opensourceintelligence.biz/STORAGE/OSINT%20Handbook.pdf).
-  * ([Wayback](https://web.archive.org/web/20210903190205/https://bib.opensourceintelligence.biz/STORAGE/OSINT%20Handbook.pdf)), ([Library Genesis](https://libgen.rs/book/index.php?md5=9F546C7EECCA739702604A279E508F11)).
-* [\[PDF\] UFMCS - Red Team Handbook - April 2012](http://bib.opensourceintelligence.biz/STORAGE/2012.%20Red%20Team%20Handbook.pdf).
-  * ([Wayback](https://web.archive.org/web/20210903190122/https://bib.opensourceintelligence.biz/STORAGE/2012.%20Red%20Team%20Handbook.pdf)), ([Library Genesis](https://libgen.rs/book/index.php?md5=D504CAF150062A520CC836B3E9622671)).
-* [\[PDF\] Open Source Intelligence Investigation: From Strategy to Implementation - Akhgar, B. - 2016](http://bib.opensourceintelligence.biz/STORAGE/2016.%20Open%20source%20intelligence%20investigation.pdf).
-  * ([Wayback](https://web.archive.org/web/20210903190138/https://bib.opensourceintelligence.biz/STORAGE/2016.%20Open%20source%20intelligence%20investigation.pdf)), ([Library Genesis](https://libgen.rs/book/index.php?md5=3D8FFB51AA1DE1C7A5DB47F521EE3045)).
-* [\[PDF\] Sailing the Sea of OSINT in the Information Age - Mercado, S.C. - 2004](http://bib.opensourceintelligence.biz/STORAGE/2004.%20Sailing%20the%20sea%20of%20OSINT.pdf).
-  * ([Wayback](https://web.archive.org/web/20210903190116/https://bib.opensourceintelligence.biz/STORAGE/2004.%20Sailing%20the%20sea%20of%20OSINT.pdf)), ([Library Genesis](http://libgen.rs/book/index.php?md5=D6804C2B7EA96CF36D31B058AC3E06EB)).
-* [\[PDF\] OSS - Special Operations Forces Open Source Intelligence (OSINT) Handbook - 2004](http://bib.opensourceintelligence.biz/STORAGE/2004.%20Special%20operations%20forces%20open%20source%20intellingence%20\(OSINT\)%20handbook.pdf).
-  * ([Wayback](https://web.archive.org/web/20210903190144/https://bib.opensourceintelligence.biz/STORAGE/2004.%20Special%20operations%20forces%20open%20source%20intellingence%20\(OSINT\)%20handbook.pdf)), ([Library Genesis](https://libgen.rs/book/index.php?md5=0784CE80298B415752AB8ED8E7ED6778)).
-* [\[PDF\] NATO - Open Source Intelligence Handbook - November 2001](http://www.oss.net/dynamaster/file_archive/030201/ca5fb66734f540fbb4f8f6ef759b258c/NATO%20OSINT%20Handbook%20v1.2%20-%20Jan%202002.pdf).
-  * ([Wayback](https://web.archive.org/web/20210126020538/http://www.oss.net/dynamaster/file_archive/030201/ca5fb66734f540fbb4f8f6ef759b258c/NATO%20OSINT%20Handbook%20v1.2%20-%20Jan%202002.pdf)), ([Internet Archive](https://archive.org/details/NATOOSINTHandbookV1.2/)).
+- [OSINT Techniques: Resources for Uncovering Online Information 10th Edition - Michael Bazzell - 2023](https://inteltechniques.com/book1.html)
+  - If you are only going to read one book here, then it should be this one :3
+  - ([archive.today](https://archive.ph/nU1Os))
+- [PDF: US Army - Open-Source Intelligence ATP 2-22.9 - June 2017 - Redacted Copy](https://irp.fas.org/doddir/army/atp2-22-9-2017.pdf)
+  - ([Wayback](https://web.archive.org/web/20210926093547/https://irp.fas.org/doddir/army/atp2-22-9-2017.pdf)), ([Library Genesis](http://libgen.rs/book/index.php?md5=B294FA28A8F5E1C52CB7DFE3B391A83C))
+- [PDF: US Army - Open-Source Intelligence - ATP 2-22.9 - July 2012](https://fas.org/irp/doddir/army/atp2-22-9.pdf)
+  - ([Wayback](https://web.archive.org/web/20210926093517/https://irp.fas.org/doddir/army/atp2-22-9.pdf)), ([Library Genesis](https://libgen.rs/book/index.php?md5=090D419ADE50C0E268587291E5F35EC6))
+- [PDF: Joint Military Intelligence Training Center - Open Source Intelligence Professional Handbook - October 1996](http://www.oss.net/dynamaster/file_archive/080807/a3127ddeaa9a083affdddce6766401fc/Open%20Source%20Intelligence_Professional%20Handbook.pdf)
+  - ([Wayback](https://web.archive.org/web/20211011044535/http://www.oss.net/dynamaster/file_archive/080807/a3127ddeaa9a083affdddce6766401fc/Open%20Source%20Intelligence_Professional%20Handbook.pdf)), ([Library Genesis](https://libgen.rs/book/index.php?md5=0EFC24973A3CBE8ED28AE01327772AC5))
+- [PDF: US Department of Justice - Legal Considerations when Gathering Online Cyber Threat Intelligence and Purchasing Data from Illicit Sources - 2020](https://www.justice.gov/criminal-ccips/page/file/1252341/download)
+  - ([Wayback](https://web.archive.org/web/20210808074010/https://www.justice.gov/criminal-ccips/page/file/1252341/download)), ([Library Genesis](https://libgen.rs/book/index.php?md5=D9ED377FB72DFCA4E05403E6BE474D44))
+- [PDF: The Psychology of Intelligence Analysis - Heuer, R. - 2006](https://www.ialeia.org/docs/Psychology_of_Intelligence_Analysis.pdf)
+  - ([Wayback](https://web.archive.org/web/20211011071927/https://www.ialeia.org/docs/Psychology_of_Intelligence_Analysis.pdf)), ([Library Genesis](https://libgen.rs/book/index.php?md5=8597CA7B3A51B41702D419CBDC003BFA))
+- [PDF: Romanian Intelligence Service - OSINT Handbook - Undated](http://bib.opensourceintelligence.biz/STORAGE/OSINT%20Handbook.pdf)
+  - ([Wayback](https://web.archive.org/web/20210903190205/https://bib.opensourceintelligence.biz/STORAGE/OSINT%20Handbook.pdf)), ([Library Genesis](https://libgen.rs/book/index.php?md5=9F546C7EECCA739702604A279E508F11))
+- [PDF: UFMCS - Red Team Handbook - April 2012](http://bib.opensourceintelligence.biz/STORAGE/2012.%20Red%20Team%20Handbook.pdf)
+  - ([Wayback](https://web.archive.org/web/20210903190122/https://bib.opensourceintelligence.biz/STORAGE/2012.%20Red%20Team%20Handbook.pdf)), ([Library Genesis](https://libgen.rs/book/index.php?md5=D504CAF150062A520CC836B3E9622671))
+- [PDF: Open Source Intelligence Investigation: From Strategy to Implementation - Akhgar, B. - 2016](http://bib.opensourceintelligence.biz/STORAGE/2016.%20Open%20source%20intelligence%20investigation.pdf)
+  - ([Wayback](https://web.archive.org/web/20210903190138/https://bib.opensourceintelligence.biz/STORAGE/2016.%20Open%20source%20intelligence%20investigation.pdf)), ([Library Genesis](https://libgen.rs/book/index.php?md5=3D8FFB51AA1DE1C7A5DB47F521EE3045))
+- [PDF: Sailing the Sea of OSINT in the Information Age - Mercado, S.C. - 2004](http://bib.opensourceintelligence.biz/STORAGE/2004.%20Sailing%20the%20sea%20of%20OSINT.pdf)
+  - ([Wayback](https://web.archive.org/web/20210903190116/https://bib.opensourceintelligence.biz/STORAGE/2004.%20Sailing%20the%20sea%20of%20OSINT.pdf)), ([Library Genesis](http://libgen.rs/book/index.php?md5=D6804C2B7EA96CF36D31B058AC3E06EB))
+- [PDF: OSS - Special Operations Forces Open Source Intelligence (OSINT) Handbook - 2004](http://bib.opensourceintelligence.biz/STORAGE/2004.%20Special%20operations%20forces%20open%20source%20intellingence%20\(OSINT\)%20handbook.pdf)
+  - ([Wayback](https://web.archive.org/web/20210903190144/https://bib.opensourceintelligence.biz/STORAGE/2004.%20Special%20operations%20forces%20open%20source%20intellingence%20\(OSINT\)%20handbook.pdf)), ([Library Genesis](https://libgen.rs/book/index.php?md5=0784CE80298B415752AB8ED8E7ED6778))
+- [PDF: NATO - Open Source Intelligence Handbook - November 2001](http://www.oss.net/dynamaster/file_archive/030201/ca5fb66734f540fbb4f8f6ef759b258c/NATO%20OSINT%20Handbook%20v1.2%20-%20Jan%202002.pdf)
+  - ([Wayback](https://web.archive.org/web/20210126020538/http://www.oss.net/dynamaster/file_archive/030201/ca5fb66734f540fbb4f8f6ef759b258c/NATO%20OSINT%20Handbook%20v1.2%20-%20Jan%202002.pdf)), ([Internet Archive](https://archive.org/details/NATOOSINTHandbookV1.2/))
+- [The OSINT Treasure Trove](https://bib.opensourceintelligence.biz)
+  - ([Wayback](https://web.archive.org/web/20211010192751/http://bib.opensourceintelligence.biz/)), ([archive.today](https://archive.is/0LNPm))
+- [Blockint - The OSINT Library](https://www.blockint.nl/the-osint-library/)
+  - ([Wayback](https://web.archive.org/web/20211011075724/https://www.blockint.nl/the-osint-library/)), ([archive.today](https://archive.is/tYj8M))
 
-* [The OSINT Treasure Trove](https://bib.opensourceintelligence.biz).
-  * ([Wayback](https://web.archive.org/web/20211010192751/http://bib.opensourceintelligence.biz/)), ([archive.today](https://archive.is/0LNPm)).
-* [Blockint - The OSINT Library](https://www.blockint.nl/the-osint-library/).
-  * ([Wayback](https://web.archive.org/web/20211011075724/https://www.blockint.nl/the-osint-library/)), ([archive.today](https://archive.is/tYj8M)).
+---
 
- 
-#######################################################################################
-# SEARCH_ENGINES
-#######################################################################################
+## SEARCH_ENGINES
 
-# SearXNG
-https://searx.space
-
-# search.hbubli.cc
-https://search.hbubli.cc/
-
-https://cse.google.com/cse?cx=90a35b59cee2a42e1
+- [SearXNG](https://searx.space)
+- [search.hbubli.cc](https://search.hbubli.cc/)
+- [Google Custom Search Engine](https://cse.google.com/cse?cx=90a35b59cee2a42e1)
