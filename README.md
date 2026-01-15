@@ -19,7 +19,7 @@
 - [Books](#books)
 - [Search Engines](#search-engines)
 
----
+
 #######################################################################################
 ## Gap Analysis Methodology
 #######################################################################################
@@ -33,7 +33,7 @@ Bei der **Lückenanalyse** wird eine Bestandsaufnahme der vorhandenen Ausgangsin
 3. (Also) Was muss ich wissen?
 4. Wie kann ich es herausfinden?
 
----
+
 #######################################################################################
 ## Password Reset
 #######################################################################################
@@ -58,7 +58,7 @@ Mangelnde Standardisierung bei den Ansätzen für Funktionen zum Zurücksetzen v
 
 - **FOURSQUARE:** Löst automatisch einen Reset aus und sendet dem Benutzer eine E-Mail. Nicht verwenden.
 
----
+
 #######################################################################################
 ## Reverse Image Searching
 #######################################################################################
@@ -70,7 +70,7 @@ Mangelnde Standardisierung bei den Ansätzen für Funktionen zum Zurücksetzen v
 - [Google Images](https://images.google.com)
 - [TinEye](https://tineye.com)
 
----
+
 #######################################################################################
 ## Recent Satellite Imagery
 #######################################################################################
@@ -79,7 +79,7 @@ Mangelnde Standardisierung bei den Ansätzen für Funktionen zum Zurücksetzen v
 - [Google Earth - New Satellite Imagery Tool](https://earth.google.com/web/@30.12736717,35.69560812,-1530.56420215a,14967606.11368418d,35y,0h,0t,0r/data=CjkaNxIxCiUweDE0MzY4OTc2YzM1YzM2ZTk6MHgyYzQ1YTAwOTI1YzRjNDQ0KgjDhGd5cHRlbhgCIAE)
 - [Mapbox Live](https://www.mapbox.com/)
 
----
+
 #######################################################################################
 ## Calculate Photo Time of Day
 #######################################################################################
@@ -89,7 +89,7 @@ Mangelnde Standardisierung bei den Ansätzen für Funktionen zum Zurücksetzen v
 - [SunCalc.net](https://suncalc.net)
 - [SunCalc.org](https://suncalc.org)
 
----
+
 #######################################################################################
 ## Fictional Account Creation
 #######################################################################################
@@ -106,7 +106,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Fake Persona Generator](https://businer.com/fakeid.php)
 - [International Random Name Generator](https://www.behindthename.com/random/)
 
----
+
 #######################################################################################
 ## Antiviruses
 #######################################################################################
@@ -122,7 +122,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - http://virusscan.jotti.org/it
 - https://www.virustotal.com/nl/
 
----
+
 #######################################################################################
 ## File Sharing
 #######################################################################################
@@ -139,7 +139,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 
 **Hinweis:** Nach dem Teilen können Sie das File Sharing jederzeit innerhalb der OnionShare-Anwendung stoppen. Dies ist nützlich, wenn Sie möchten, dass nur eine Person die Datei herunterlädt oder wenn Ihr Link und privater Schlüssel an Benutzer weitergegeben wurden, die keinen Zugriff haben sollten.
 
----
+  
 #######################################################################################
 ## OSINT Tools
 #######################################################################################
@@ -153,6 +153,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Qwant](https://www.qwant.com/)
 - [Yacy](https://yacy.net/)
 
+
 #######################################################################################
 ### Bot/Troll Detection
 #######################################################################################
@@ -165,6 +166,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Iffy Quotient](https://csmr.umich.edu/plaform-health-metrics)
 - [Information Operations Archive](https://io-archive.org)
 - [Twitter Trails](http://twittertrails.com/)
+
 
 #######################################################################################
 ### Digital Forensics
@@ -232,6 +234,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [TheHarvester](https://github.com/laramies/theHarvester) - Gather emails and names
 - [Creepy](https://www.geocreepy.com/) - Geolocation OSINT tool
 
+
 #######################################################################################
 ### Domain Intelligence
 #######################################################################################
@@ -245,6 +248,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Whoismind](https://whoismind.com)
 - [Whoisology](https://whoisology.com)
 - [Whoxy](https://whoxy.com/reverse-whois)
+
 
 #######################################################################################
 ### Email Investigation
@@ -272,6 +276,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [TruMail](https://trumail.io)
 - [Verify Email](https://verify-email.org)
 
+
 #######################################################################################
 ### Forensics & Metadata
 #######################################################################################
@@ -283,6 +288,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [MetaPicz](https://metapicz.com)
 - [Image Verification](https://reveal-mklab.iti.gr/reveal/index.html)
 - [WayBack Machine](https://archive.org)
+
 
 #######################################################################################
 ### Infrastructure Analysis
@@ -575,6 +581,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Yt-dlp](https://github.com/yt-dlp/yt-dlp) - Youtube-dl fork with additional features
 - [Zen](https://github.com/s0md3v/Zen) - Find emails of Github users
 
+
 #######################################################################################
 ### Additional Tools & Resources
 #######################################################################################
@@ -608,7 +615,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Rengine](https://github.com/yogeshojha/rengine)
 - [OSINT4ALL](https://start.me/p/L1rEYQ/osint4all)
 
----
+  
 #######################################################################################
 ## OSINT Resources
 #######################################################################################
@@ -629,7 +636,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Ph055a's OSINT Collection](https://github.com/Ph055a/OSINT_Collection)
 - [Collection of 4000+ OSINT resources](https://metaosint.github.io/table)
 
----
+
 #######################################################################################
 ## Books
 #######################################################################################
@@ -643,8 +650,6 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Blockint - The OSINT Library](https://www.blockint.nl/the-osint-library/)
 
 - [I-Intelligence OSINT Resources Handbook](https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_2020.pdf)
-
----
 
 
 * [Wikipedia - List of Intelligence Gathering Disciplines](https://en.wikipedia.org/wiki/List_of_intelligence_gathering_disciplines).
@@ -919,32 +924,8 @@ This section contains the publications which are focussed more on collection tec
 # SEARCH_ENGINES
 #######################################################################################
 
-# SearXNG
-https://searx.space
-
-# search.hbubli.cc
-https://search.hbubli.cc/
-
-https://www.vsthub.org/2024/01/win-image-line-fl-studio-producer.html
-
-https://steamrepacks.net/fl-studio-25-cracked/#🛠-easy-setup-guide
-
-https://fmhy.net/audio#audio-editors
-
-https://drive.google.com/file/d/1Ttlb0zvZenLDgTCc5RvtVHv8YvIegVli/view
-
-https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/download/
-
-https://cse.google.com/cse?cx=006516753008110874046:1ugcdt3vo7z#gsc.tab=0&gsc.q=fl&gsc.sort=
-
-https://filepursuit.com/pursuit?q=fl+studio&type=all
-
-https://cse.google.com/cse?cx=90a35b59cee2a42e1
-
----
-
-https://web-check.as93.net/check/about#features
-https://web-check.xyz/
-https://digital-defense.io/
-https://arkenfox.github.io/TZP/tzp.html
-https://www.blockint.nl/blog/
+- [SearXNG](https://searx.space)
+- [search.hbubli.cc](https://search.hbubli.cc/)
+- [Google Custom Search Engine](https://cse.google.com/cse?cx=90a35b59cee2a42e1)
+ 
+  
