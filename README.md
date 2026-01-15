@@ -144,9 +144,8 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 ## OSINT Tools
 #######################################################################################
 
-#######################################################################################
+
 ### Anonymous Search
-#######################################################################################
 
 - [DuckDuckGo](https://duckduckgo.com/)
 - [Start Page](https://www.startpage.com/)
@@ -154,9 +153,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Yacy](https://yacy.net/)
 
 
-#######################################################################################
 ### Bot/Troll Detection
-#######################################################################################
 
 - [Bot Sentinel](https://botsentinel.com/)
 - [Botometer](https://botometer.iuni.iu.edu/)
@@ -380,12 +377,14 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Jeffrey's Exif Viewer](http://exif.regex.info/exif.cgi)
 - [Online Barcode Reader](http://online-barcode-reader/inliteresearch.com)
 
+
 #######################################################################################
 ### Image Tools
 #######################################################################################
 
 - [Imgops](https://imgops.com/)
 - [Depix](https://github.com/spipm/Depixelization_poc)
+
 
 #######################################################################################
 ### Open Directory Search
@@ -400,6 +399,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Musgle](http://musgle.com)
 - [Lendex](http://lendex.org)
 
+
 #######################################################################################
 ### Satellite Imagery
 #######################################################################################
@@ -412,6 +412,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [World Imagery WayBack](http://livingatlas.arcgis.com/wayback)
 - [Yandex Maps](http://yandex.com/maps)
 - [Zoom Earth](http://zoomeath.com)
+
 
 #######################################################################################
 ### Telephone Investigation
@@ -432,6 +433,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [True Caller](https://truecaller.com)
 - [Twilio](https://twilio.com/lookup)
 
+
 #######################################################################################
 ### Tor Network
 #######################################################################################
@@ -441,6 +443,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Tor2Web](https://tor2web.org)
 - [Not Evil (Inside Tor)](https://hss3uro2hsxfogfq.onion)
 
+
 #######################################################################################
 ### Vehicle Investigation
 #######################################################################################
@@ -449,11 +452,14 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Vin-Info](https://vin-info.com)
 - [World License Plates](https://worldlicenseplates.com)
 
+
 #######################################################################################
 ### GitHub Investigation
 #######################################################################################
 
 - [Shhgit](https://github.com/eth0izzle/shhgit)
+
+
 #######################################################################################
 ### Username Investigation
 #######################################################################################
@@ -471,6 +477,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Agcom](https://www.agcom.it/node/42043)
 - [Facecheck](https://facecheck.id/de)
 - [Google GHunt](https://github.com/mxrch/GHunt)
+
 
 #######################################################################################
 ### Comprehensive OSINT Tools
@@ -620,10 +627,6 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 ## OSINT Resources
 #######################################################################################
 
-
-#######################################################################################
-### Framework & Collections
-#######################################################################################
 - [OSINT Framework](https://osintframework.com/)
 - [BELLINGCAT's Online Investigation Toolkit](https://t.co/5vewV5ab5N)
 - [Aware Online OSINT Tools](https://www.aware-online.com/en/osint-tools/)
@@ -641,10 +644,6 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 ## Books
 #######################################################################################
 
-#######################################################################################
-### Official Resources & Publications
-#######################################################################################
-
 - [The OSINT Treasure Trove](https://bib.opensourceintelligence.biz)
 
 - [Blockint - The OSINT Library](https://www.blockint.nl/the-osint-library/)
@@ -658,6 +657,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
   * ([Wayback](https://web.archive.org/web/20210810222713/https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FOIA-Reading-Room-Other-Available-Records/FileId/39954/)), ([Library Genesis](http://libgen.rs/book/index.php?md5=2ABBB54324D2F6403298914E7522D039)).
 * [\[PDF\] Counter Intelligence Glossary - Terms and Definitions of Interest for CI Professionals - June 2014](https://fas.org/irp/eprint/ci-glossary.pdf).
   * ([Wayback](https://web.archive.org/web/20211002003503/https://irp.fas.org/eprint/ci-glossary.pdf)), ([Library Genesis](http://libgen.rs/book/index.php?md5=8567E71ED1658AF9496B5CEB780CFB1B)).
+
 
 
 #######################################################################################
@@ -905,7 +905,10 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - Zhang, Y., R. Frank, N. Warkentin and N. Zakimi (2022) ‘ [Accessible from the open web: a qualitative analysis of the available open-source information involving cyber security and critical infrastructure](https://doi.org/10.1093/cybsec/tyac003) ‘, in *Journal of Cybersecurity*,8(1): pp. 1–15.
 - Ziolkowska, A. (2018) ‘Open Source Intelligence (OSINT) as an element of Military recon’, in *Security and Defence Quarterly*, 19(2).
 
-#### Techniques
+
+#######################################################################################
+## Techniques
+#######################################################################################
 
 This section contains the publications which are focussed more on collection techniques, often with an overlap into digital forensics.
 
@@ -927,5 +930,12 @@ This section contains the publications which are focussed more on collection tec
 - [SearXNG](https://searx.space)
 - [search.hbubli.cc](https://search.hbubli.cc/)
 - [Google Custom Search Engine](https://cse.google.com/cse?cx=90a35b59cee2a42e1)
+
  
-  
+#######################################################################################
+# Finish
+#######################################################################################
+
+Das waren die Grundlagen in OSINT. Hat dir der Guide gefallen, dann freuen wir uns über ein Star oder Fork von dir. Hast du etwas nicht verstanden oder hast Verbesserungsvorschläge dann schreib uns eine Nachricht. Ich freue mich über jeden Input mit dem ich das Guide verbessern kann.
+
+
