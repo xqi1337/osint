@@ -588,10 +588,171 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Yt-dlp](https://github.com/yt-dlp/yt-dlp) - Youtube-dl fork with additional features
 - [Zen](https://github.com/s0md3v/Zen) - Find emails of Github users
 
+#######################################################################################
+### Online Network Analysis Tools
+#######################################################################################
 
+- [Network-Tools.com](http://network-tools.com/) - Domain lookup, IP lookup, whois, traceroute, URL decode/encode, HTTP headers and SPAM blocking list
+- [Robtex](https://www.robtex.com/) - Swiss Army Knife Internet Tool
+- [CentralOps](http://centralops.net/co/) - Domain and other advanced internet utilities from a web interface
+- [Shadowserver Whois and DNS Lookups](http://www.shadowserver.org/wiki/pmwiki.php/Services/IP-BGP) - Check ASN and BGP information via whois or DNS queries
+- [Netcraft](http://www.netcraft.com/) - Passive reconnaissance information about a web site via online tool or browser extension
+
+
+#######################################################################################
+### Online Malware Sandboxes & Analysis Tools
+#######################################################################################
+
+- [Malwr](https://malwr.com/submission) - Malware analysis service based on Cuckoo sandbox
+- [Comodo Instant Malware Analysis](http://camas.comodo.com/) - File analysis with report
+- [Comodo Valkyrie](http://valkyrie.comodo.com/) - File verdict system using run-time behavior analysis
+- [Eureka](http://eureka.cyber-ta.org/) - Automated malware analysis using binary unpacking and execution tracing
+- [Joe Sandbox Document Analyzer](http://www.document-analyzer.net/) - Checks PDF, DOC, PPT, XLS and Office formats for malware
+- [Joe Sandbox File Analyzer](http://www.file-analyzer.net/) - Checks behavior of potentially malicious executables
+- [Joe Sandbox URL Analyzer](https://www.url-analyzer.net/) - Checks behavior of possibly malicious web sites
+- [ThreatTrack Security Public Malware Sandbox](http://www.threattracksecurity.com/resources/sandbox-malware-analysis.aspx) - Behavioral analysis on potential malware in a public sandbox
+- [XecScan](http://scan.xecure-lab.com/) - Analysis of unknown files or suspicious documents, including hash search
+- [Adopstools](http://www.adopstools.net/) - Scans Flash files, local or remote
+- [ThreatExpert](http://www.threatexpert.com/default.aspx) - Automated threat analysis system reporting behavior of potential malware
+- [MalwareViz](https://www.malwareviz.com/) - Malware visualizer generating images of a bad file's actions
+- [Payload Security / Hybrid Analysis](https://www.hybrid-analysis.com/) - Submit PE or PDF/Office files for analysis with VxStream Sandbox
+- [VisualThreat](http://www.visualthreat.com/index.action) - Mobile app threat reputation report for Android files
+- [Totalhash](https://totalhash.cymru.com/) - Malware analysis database
+- [Deepviz](https://sandbox.deepviz.com) - Malware analyzer sandbox
+- [MASTIFF Online](https://mastiff-online.korelogic.com/) - Free web service based on the MASTIFF static analysis framework
+
+#######################################################################################
+#######################################################################################
+### Online File, URL & System Scanning Tools
+#######################################################################################
+
+- [VirusTotal](https://www.virustotal.com/) - Analyzes files and URLs using multiple antivirus engines and website scanners; supports hash search
+- [OPSWAT Metascan Online](https://www.metascan-online.com/) - Scans a file, hash or IP address for malware
+- [Jotti](https://virusscan.jotti.org/) - Scans suspicious files with several antivirus programs; supports MD5 and SHA1 hash search
+- [URLVoid](http://www.urlvoid.com/) - Scans a website with multiple reputation engines and domain blacklists
+- [IPVoid](http://www.ipvoid.com/) - Scans an IP address using multiple DNS-based blacklists
+- [Comodo Web Inspector](http://app.webinspector.com/) - Checks a URL for malware in real-time
+- [Malware URL](http://www.malwareurl.com/listing-urls.php) - Checks websites and IP addresses against known malware lists
+- [ESET Online Scanner](http://www.eset.com/us/online-scanner/) - Online antivirus scanning service for local systems
+- [ThreatExpert Memory Scanner](http://www.threatexpert.com/memoryscanner.aspx) - Post-mortem diagnostic to detect high-profile threats in memory
+- [Composite Block List](http://cbl.abuseat.org/lookup.cgi) - Checks an IP against multiple block lists
+- [AVG LinkScanner](http://www.avg.com.au/resources/web-page-scanner/) - Analyzes URLs in real time for reputation
+- [BrightCloud URL/IP Lookup](http://www.brightcloud.com/support/lookup.php) - Historical reputation data about websites
+- [Cisco SenderBase](http://www.senderbase.org/) - Historical reputation data about domains, IPs or network owners
+- [Is It Hacked](http://www.isithacked.com/) - Real-time URL checks and blacklist lookups
+- [Norton Safe Web](http://safeweb.norton.com/) - Historical reputation data about websites
+- [PhishTank](http://www.phishtank.com/) - Looks up URLs in a database of known phishing websites
+- [Malware Domain List](http://www.malwaredomainlist.com/mdl.php) - Recently reported malicious websites
+- [McAfee TrustedSource](http://www.trustedsource.org/) - Historical reputation data about websites
+- [MxToolbox Blacklists](http://mxtoolbox.com/blacklists.aspx) - Queries multiple reputational sources for IP or domain information
+- [Quttera ThreatSign](http://quttera.com/) - Scans a URL for the presence of malware
+- [Reputation Authority](http://www.reputationauthority.org/) - Reputation data on domains or IP addresses
+- [Sucuri Site Check](https://sitecheck.sucuri.net/) - Website and malware security scanner
+- [Trend Micro Web Reputation](http://reclassify.wrs.trendmicro.com/) - Historical reputation data about websites
+- [Unmask Parasites](http://www.unmaskparasites.com/security-report/) - Checks URLs against Google Safe Browsing; detects hacked sites
+- [URL Blacklist](http://urlblacklist.com/?sec=search) - Looks up URLs in a database of suspicious sites
+- [URL Query](http://urlquery.net/) - Looks up URLs in a suspicious sites database and examines site content
+- [vURL](http://vurl.mysteryfcm.co.uk/) - Retrieves page source and checks status in several blocklists
+- [Qualys FreeScan](https://freescan.qualys.com/freescan-front/) - Free vulnerability scanner for internet-accessible assets (limited to 10 scans)
+- [Zscaler Zulu URL Risk Analyzer](http://zulu.zscaler.com/) - Examines URLs using real-time and historical techniques
+- [Analyzing Malicious Documents Cheat Sheet](https://zeltser.com/analyzing-malicious-documents/) - Guide by Lenny Zeltser on analyzing malicious documents
+
+
+#######################################################################################
+### Hash Searches
+#######################################################################################
+
+- [VirusTotal](https://www.virustotal.com/) - MD5 hash search based on submitted samples
+- [Jotti](https://virusscan.jotti.org/en-US/search/hash) - MD5 and SHA1 hash searches based on submitted samples
+- [Malware Hash Registry](http://www.team-cymru.org/Services/MHR/) - MD5 or SHA-1 hash lookup for known malware via Whois, DNS, HTTP, HTTPS or browser add-on
+
+
+#######################################################################################
+### Domain & IP Reputation Lists
+#######################################################################################
+
+- [Malware Patrol](http://www.malware.com.br/index.shtml) - Block lists of malicious URLs for anti-spam, anti-virus and web proxy systems
+- [Cisco SenderBase](http://www.senderbase.org/) - Reputation data about a domain, IP or network owner
+- [Malware Domains](http://www.malwaredomains.com/) - Domain block lists for DNS sinkholes
+- [Malware URL](http://www.malwareurl.com/listing-urls.php) - Malware URL and IP database importable into local proxies
+- [ZeuS Tracker](https://zeustracker.abuse.ch/) - Domain and IP block lists related to ZeuS malware
+- [Fortiguard Threat Research](http://www.fortiguard.com/iprep/index.php) - IP or URL reputation and content filtering category lookup
+- [CLEAN-MX Realtime Database](http://support.clean-mx.de/clean-mx/viruses) - Free malware database with XML output
+- [CYMRU Bogon List](http://www.cymru.com/Documents/bogon-dd.html) - List of bogon prefixes commonly used in DDoS attacks
+- [DShield Highly Predictive Blacklist](http://www.dshield.org/hpbinfo.html) - Free blacklist, registration required
+- [Google Safe Browsing API](http://code.google.com/apis/safebrowsing/) - Programmatic access to safe browsing data
+- [hpHosts](http://hosts-file.net/) - Hosts file with limited automation on request
+- [Malc0de Database](http://malc0de.com/database/) - Malware domain database
+- [MalwareDomainList Hosts List](http://www.malwaredomainlist.com/hostslist/hosts.txt) - Hosts list of malicious domains
+- [OpenPhish](http://openphish.com/) - Phishing sites database; free for non-commercial use
+- [PhishTank Phish Archive](http://www.phishtank.com/phish_archive.php) - Free query database via API
+- [ISITPHISHING](http://isitphishing.org/index.php) - Tests URLs, brand names or subnets for phishing content
+- [Project Honey Pot Malicious IPs](http://www.projecthoneypot.org/list_of_ips.php) - Directory of malicious IPs; free with registration
+- [Scumware.org](http://www.scumware.org/) - IP and domain reputation database
+- [Shadowserver IP and URL Reports](http://www.shadowserver.org/wiki/pmwiki.php?n=Services/Reports) - Free with registration and approval
+- [SRI Threat Intelligence Lists](http://mtc.sri.com/) - Free threat intelligence lists; redistribution prohibited
+- [ThreatStop](http://www.threatstop.com/) - Paid threat intelligence service with free trial
+- [URL Blacklist](http://urlblacklist.com/) - Commercial URL blacklist; first download free
+
+
+#######################################################################################
+### Additional URL, File & IP Checking Tools
+#######################################################################################
+
+- [Malware Analysis Custom Search](https://www.google.com/cse/home?cx=011750002002865445766:pc60zx1rliu) - Custom Google search over 155 malware analysis and AV report URLs
+- [Malicious IP Custom Search](https://www.google.com/cse/home?cx=011750002002865445766:y5klxdomj78) - Custom Google search across CBL, projecthoneypot, team-cymru, shadowserver and others
+- [Vulnerability Search](https://www.google.com/cse/home?cx=011905220571137173365:3dje3l3s8wk) - Custom Google search for software vulnerabilities and exploits
+- [Cymon](https://cymon.io/) - Open tracker of malware, phishing, botnets and spam
+- [Scumware.org Search](http://www.scumware.org/search.scumware) - IP, domain reputation and malware hash search
+- [ISC Tools](http://dshield.org/tools/) - Domain and IP information with aggregated blackhole, bogon and malware feeds
+- [Malc0de Dashboard](http://malc0de.com/dashboard/) - IP checks and additional malware information
+- [OpenMalware](http://oc.gtisc.gatech.edu:8080/faq.html) - Database of malware samples
+- [Team Cymru Community Services](http://www.team-cymru.org/Services/) - Darknet project, IP to ASN mapping and malware analysis
+- [viCheck.CA](https://vicheck.ca/tools.php) - Malware hash search, file format decoding, email header parsing and IP/domain lookups
+- [AlienVault Reputation Monitoring](http://www.alienvault.com/open-threat-exchange/reputation-monitor) - Free alerts when domains or IPs become compromised
+- [Web of Trust](http://www.mywot.com/) - Community-driven historical reputation data; Firefox add-on
+- [Shodan](http://www.shodanhq.com/) - Search engine for internet-connected devices using various filters
+- [Punkspider](https://www.punkspider.org/) - Global web application vulnerability search engine
+
+
+#######################################################################################
+### Email Tools
+#######################################################################################
+
+- [MX Toolbox](http://mxtoolbox.com/SuperTool.aspx) - MX record monitoring, DNS health, blacklist and SMTP diagnostics
+
+
+#######################################################################################
+### Threat Intelligence & Miscellaneous Tools
+#######################################################################################
+
+- [ThreatPinch Lookup](https://github.com/cloudtracer/ThreatPinchLookup) - Browser extension providing informational tooltips for IPv4, MD5, SHA2 and CVE items on any website
+- [ThreatConnect](http://www.threatconnect.com/) - Threat intelligence platform with free and commercial options
+- [Censys](https://censys.io/) - Search engine for querying devices, networks and certificates on the internet
+- [RiskIQ Community Edition](https://www.riskiq.com/products/community-edition/) - Internet data platform for hunting digital threats
+- [Threatminer](https://www.threatminer.org/) - Data mining for threat intelligence
+- [IBM X-Force Exchange](https://exchange.xforce.ibmcloud.com/) - Threat intelligence sharing platform for research and collaboration
+- [Recorded Future](https://www.recordedfuture.com/resources/) - Free email of trending threat indicators
+- [Shadowserver](https://www.shadowserver.org/wiki/pmwiki.php/Main/HomePage) - Threat intelligence and reputation data
+- [The Exploit Database](https://www.exploit-db.com/) - Archive of exploits, shellcode and security papers by Offensive Security
+- [Google Hacking Database](https://www.exploit-db.com/google-hacking-database/) - Searchable GHDB categories
+- [Privacy Rights Clearinghouse](https://www.privacyrights.org/data-breach/new) - Data breach database
+- [Breach Level Index](http://www.breachlevelindex.com/#!home) - Data breach database
+- [AWStats](http://www.awstats.org/) - Free real-time log analyzer
+- [AlienVault Open Threat Exchange](https://otx.alienvault.com/) - Open threat intelligence sharing community
+- [REMnux](https://remnux.org/) - Free Linux toolkit for reverse-engineering and analyzing malware
+- [Detection Lab](https://github.com/clong/DetectionLab) - Scripts to quickly deploy a Windows Active Directory with endpoint security tooling
+- [SIFT Workstation](https://digital-forensics.sans.org/community/downloads) - Free open-source incident response and forensic tools
+- [Security Onion](https://securityonion.net/) - Free Linux distribution for intrusion detection and log management
+- [Kali Linux](https://www.kali.org/) - Penetration testing and security auditing Linux distribution
+- [Pentoo](https://www.pentoo.ch/) - Security-focused live CD based on Gentoo
+- [Tails](https://tails.boum.org/) - Live operating system focused on privacy and anonymity
+
+  
 #######################################################################################
 ### Additional Tools & Resources
 #######################################################################################
+
 - [Leakpeek](https://leakpeek.com/)
 - [Flare](https://try.flare.io/jh/)
 - [Rae Baker OSINT List](https://start.me/p/7kYgk2/rae-baker-deep-dive-osint)
@@ -622,7 +783,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Rengine](https://github.com/yogeshojha/rengine)
 - [OSINT4ALL](https://start.me/p/L1rEYQ/osint4all)
 
-  
+
 #######################################################################################
 ## OSINT Resources
 #######################################################################################
