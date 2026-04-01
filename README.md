@@ -321,7 +321,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [URLscan](https://urlscan.io)
 - [Virus Total](https://virustotal.com)
 - [Visual Site Mapper](http://visualsitemapper.com)
-- [Wigle](http://wigle.net)
+- [Wigle](http://wigle.net) - BSSID location lookup
 - [Zoom Eye](http://zoomeye.org)
 
 #######################################################################################
