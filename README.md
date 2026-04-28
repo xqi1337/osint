@@ -1091,7 +1091,7 @@ This section contains the publications which are focussed more on collection tec
 - [SearXNG](https://searx.space)
 - [search.hbubli.cc](https://search.hbubli.cc/)
 - [Google Custom Search Engine](https://cse.google.com/cse?cx=90a35b59cee2a42e1)
-
+- [churchofmalware]/https://churchofmalware.org/#scripture)
  
 #######################################################################################
 # Finish
