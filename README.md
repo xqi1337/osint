@@ -236,6 +236,8 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 ### Domain Intelligence
 #######################################################################################
 
+
+- [builtwith](https://builtwith.com)
 - [Analyze ID](https://analyzeid.com)
 - [DNS Trails](https://dnstrails.com)
 - [Domain Big Data](https://domainbigdata.com)
