@@ -277,6 +277,16 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 
 
 #######################################################################################
+### Sun and lunar Tools
+#######################################################################################
+
+- [Sun rise, noon, and set time and direction.](https://sollumis.com/)
+- [SunEarthTools.com](http://www.sunearthtools.com/)
+- [Astronomy - Sun - Moon - Eclipses](https://www.timeanddate.com/astronomy/)
+- [3D Sun Path](http://andrewmarsh.com/apps/staging/sunpath3d.html)
+
+
+#######################################################################################
 ### Forensics & Metadata
 #######################################################################################
 
@@ -453,7 +463,41 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Nomerogram - RU Plates](https://nomerogram.ru)
 - [Vin-Info](https://vin-info.com)
 - [World License Plates](https://worldlicenseplates.com)
-
+- [Poctra](https://poctra.com/) (US / EU)
+- [nomerogram](https://www.nomerogram.ru/) (RU)
+- [Reverse Genie (License Plate Search)](http://www.reversegenie.com/plate.php)
+- [Autowini (Vin Search International)](http://www.autowini.com)
+- [thatsthem (Vin Search)](http://thatsthem.com/vin-search)
+- [All Vehicle Data](http://www.allvehicledata.com/)
+- [Vin Place](http://vin.place)
+- [Check That (Vin Search)](https://www.checkthatvin.com/?action=pcheck)
+- [Vin decoderz (Vin Search)](https://www.vindecoderz.com/)
+- [National Insurance Crime Bureau(Vin Search)](https://www.nicb.org/theft_and_fraud_awareness/vincheck)
+- [Vehicle History (Make/Model & Vin Search)](https://www.vehiclehistory.com/vehicle/land.php)
+- [Vehicle History (Plate Search)](https://www.vehiclehistory.com/license-plate-search.php)
+- [auto bid master (auction)](http://www.autobidmaster.com/)
+- [copart (auction)](https://www.copart.com)
+- [Check That Vin](https://checkthatvin.com)
+- [Vin-Info](https://uk.vin-info.com) (UK)
+- [Carnet AI](https://carnet.ai/)
+- [Open Flights](https://openflights.org/)
+- [Plane Finder](https://planefinder.net/)
+- [Plane Spotter](https://www.planespotters.net/)
+- [Flight Aware](http://flightaware.com/)
+- [Flight Stats](http://www.flightstats.com/go/Home/home.do)
+- [Plane Flight Tracker](http://www.planeflighttracker.com)
+- [Flight Aware(Historical)](https://flightaware.com/live/flight_event_history.rvt?ident=)
+- [Flight Radar 24](http://flightradar24.com)
+- [Flightwise](http://flightwise.com/)
+- [Airport Webcams](http://airportwebcams.net/)
+- [Live ATC](https://www.liveatc.net/)
+- [Radar Box](https://www.radarbox24.com)
+- [Airfield Search](http://www.pilotweb.aero/airfields/search-airfields)
+- [Virtual Radar](http://global.adsbexchange.com/VirtualRadar)
+- [FAA Registry](http://registry.faa.gov/aircraftinquiry/NNum_Inquiry.aspx)
+- [US Air Space Map](http://knowbeforeyoufly.org/air-space-map/)
+- [Drones Travel By Drone](http://travelbydrone.com/)
+  
 
 #######################################################################################
 ### GitHub Investigation
@@ -1087,7 +1131,7 @@ This section contains the publications which are focussed more on collection tec
 
 
 #######################################################################################
-# SEARCH_ENGINES
+# search-engines
 #######################################################################################
 
 - [SearXNG](https://searx.space)
