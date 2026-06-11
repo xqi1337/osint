@@ -16,8 +16,10 @@
 - [File Sharing](#file-sharing)
 - [OSINT Tools](#osint-tools)
 - [OSINT Resources](#osint-resources)
+- [Geospatial](#geospatial)
 - [Books](#books)
 - [Search Engines](#search-engines)
+
 
 
 #######################################################################################
@@ -845,6 +847,56 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 - [Awesome OSINT Github](https://github.com/jivoi/awesome-osint)
 - [Ph055a's OSINT Collection](https://github.com/Ph055a/OSINT_Collection)
 - [Collection of 4000+ OSINT resources](https://metaosint.github.io/table)
+
+#######################################################################################
+## Geospatial
+#######################################################################################
+
+- [Digital Globe](https://discover.digitalglobe.com/)
+- [Sentinel Hub](https://apps.sentinel-hub.com)
+- [Your Navigation](http://www.yournavigation.org/)
+- [USGS Land Sat](https://landsatlook.usgs.gov/)
+- [USGS Earth Explorer](https://earthexplorer.usgs.gov/)
+- [ZeeMaps](https://www.zeemaps.com)
+- [Zoom Earth](https://zoom.earth/)
+- [Free Map Tools](https://www.freemaptools.com)
+- [Terra pattern](http://www.terrapattern.com/)
+- [Old Maps](http://www.oldmapsonline.org)
+- [Map Devleopers](https://www.mapdevelopers.com/google-map-search.php)
+- [Mapillary](https://www.mapillary.com/)
+- [Land Information (NZ)](https://data.linz.govt.nz/data/)
+- [Great Lakes Wildlife](http://maps.glifwc.org/)
+- [Liveumaps](http://liveuamap.com)
+- [Land Viewer](https://lv.eosda.com/)
+- [Batchgeo](http://batchgeo.com/)
+- [Bing Maps](http://www.bing.com/maps)
+- [DualMaps](https://www.mapchannels.com/dualmaps6/map.htm?)
+- [Flash Earth](http://www.flashearth.com/)
+- [Google Earth](http://www.google.com/earth)
+- [Google Maps](https://www.google.com/maps)
+- [Google Maps Streetview Player](http://brianfolts.com/driver)
+- [Google My Maps](https://www.google.com/maps/about/mymaps)
+- [Here](https://wego.here.com/)
+- [Inspire Geoportal](http://inspire-geoportal.ec.europa.eu/)
+- [Instant Google Street View](http://www.instantstreetview.com/)
+- [Mapbuildr](https://mapkit.io/editor)
+- [Mapquest](https://www.mapquest.com/)
+- [Open Street Map](http://www.openstreetmap.org/)
+- [StoryMaps](http://storymaps.arcgis.com/en)
+- [Scribble Maps](http://scribblemaps.com/)
+- [Wikimapia](http://wikimapia.org/)
+- [World Aeronautical Database](http://worldaerodata.com/)
+- [Yahoo Maps](https://maps.yahoo.com/)
+- [Crime Reports](https://www.crimereports.com/home/#!/dashboard)
+- [Crime Mapping](https://www.crimemapping.com/home)
+- [Your Navigation](http://yournavigation.org/)
+- [Open Railway Map](http://www.openrailwaymap.org/)
+- [US Nav Guide](http://www.usnaviguide.com)
+- [Geo Names](http://www.geonames.org/)
+- [ArcGIS WayBack](https://livingatlas.arcgis.com/wayback/)
+- [Travic](https://tracker.geops.ch)
+- [SatelittesPro](https://satellites.pro/)
+- [intelliearth](https://intelliearth.harrisgeospatial.com/)
 
 
 #######################################################################################
