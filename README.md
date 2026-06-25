@@ -1016,12 +1016,7 @@ Autogenerieren Sie fiktive Personas mit den folgenden Online-Tools:
 
 ### Multitask AI Tools 
 
-<img src="https://avatars.githubusercontent.com/u/217203690?v=4" />
-
-Ubikron not only replaces a bunch of browser extensions for analysing browser history, extracting data from web pages, and creating annotations. It also replaces a bunch of AI tools: tools for AI image identification, chat with an AI assistant, file analysis for investigation using AI, and much more. Try it now free in [ubikron.com](https://ubikron.com).
-
 [Ubikron](https://www.ubikron.com/) - Chrome Extension 
-
 [Taranis AI](https://github.com/taranis-ai/taranis-ai) - self-hosted  
 [Cyclect: Ultimate AI OSINT Search Engine](https://cylect.io/) - online  
 [Research Pilot v2.5](https://digitaldigging.org/research/) - online  
